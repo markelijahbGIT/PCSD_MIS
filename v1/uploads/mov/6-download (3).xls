@@ -1,0 +1,38 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns=""><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>PCSD MIS</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table>
+        <table>
+            <thead>
+              <tr>
+              <th>Title</th>
+              <th>Division</th>
+              <th>Expense</th>
+              <th>Annual Budget</th>
+              <th>Monthly Budget</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <!-- ngRepeat: data in expenses_data|filter:search | filter:{division:indicator.division} --><tr flex="" ng-repeat="data in expenses_data|filter:search | filter:{division:indicator.division}" ng-click="" class="ng-scope flex" role="button" tabindex="0" style="">
+                <td class="ng-binding">Administration of ECAN Zones Scorecard</td>
+                <td class="ng-binding">EPRPD</td>
+                <td class="ng-binding">7824</td>
+                <td class="ng-binding">209010</td>
+                <td class="ng-binding"></td>
+              </tr><!-- end ngRepeat: data in expenses_data|filter:search | filter:{division:indicator.division} --><tr flex="" ng-repeat="data in expenses_data|filter:search | filter:{division:indicator.division}" ng-click="" class="ng-scope flex" role="button" tabindex="0">
+                <td class="ng-binding">Capacity Building of Stakeholders on ECAN and sustainable development planning</td>
+                <td class="ng-binding">EPRPD</td>
+                <td class="ng-binding">3500</td>
+                <td class="ng-binding">66552</td>
+                <td class="ng-binding"></td>
+              </tr><!-- end ngRepeat: data in expenses_data|filter:search | filter:{division:indicator.division} --><tr flex="" ng-repeat="data in expenses_data|filter:search | filter:{division:indicator.division}" ng-click="" class="ng-scope flex" role="button" tabindex="0">
+                <td class="ng-binding">Conduct of In-House Planning Workshops</td>
+                <td class="ng-binding">EPRPD</td>
+                <td class="ng-binding">10000</td>
+                <td class="ng-binding">71240</td>
+                <td class="ng-binding"></td>
+              </tr><!-- end ngRepeat: data in expenses_data|filter:search | filter:{division:indicator.division} -->
+            </tbody>
+
+
+        </table>
+
+        </table></body></html>

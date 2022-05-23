@@ -1,0 +1,404 @@
+[12-May-2022 13:30:49 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[12-May-2022 13:30:49 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[12-May-2022 13:41:36 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[12-May-2022 13:41:36 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[12-May-2022 13:41:36 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[12-May-2022 13:48:37 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[12-May-2022 13:48:37 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[12-May-2022 13:48:37 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 10:24:15 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 10:24:15 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 10:24:15 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 14:19:35 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 14:19:35 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 14:19:35 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 14:22:00 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 14:22:00 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 14:22:00 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 14:28:04 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 14:28:04 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 14:28:04 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 14:33:23 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 14:33:23 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 14:33:23 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 14:34:26 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 14:34:26 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 14:34:26 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 14:41:43 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 14:41:43 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 14:41:43 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 14:47:38 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 14:47:38 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 14:47:38 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 14:50:04 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 14:50:04 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 14:50:04 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 14:55:03 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 14:55:03 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 14:55:03 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 14:57:22 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 14:57:22 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 14:57:22 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 14:58:57 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 14:58:57 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 14:58:57 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 15:00:04 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 15:00:04 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 15:00:04 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 15:03:56 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 15:03:56 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 15:03:56 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 15:12:34 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 15:12:34 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 15:12:34 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 15:14:54 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 15:14:54 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 15:14:54 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 15:27:58 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 15:27:58 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 15:27:58 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 15:33:04 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 15:33:04 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 15:33:04 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 15:34:18 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 15:34:18 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 15:34:18 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 15:35:47 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 15:35:47 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 15:35:47 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 15:37:23 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 15:37:23 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 15:37:23 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 15:51:07 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 15:51:07 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 15:51:07 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 15:54:45 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 15:54:45 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 15:54:45 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 15:56:05 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 15:56:05 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 15:56:05 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 16:09:20 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 16:09:20 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 16:09:20 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 16:17:22 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 16:17:22 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 16:17:22 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 16:18:49 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 16:18:49 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 16:18:49 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 16:22:49 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[16-May-2022 16:22:49 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[16-May-2022 16:22:49 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[17-May-2022 09:49:40 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 09:49:40 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 09:49:40 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 10:13:05 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 10:13:05 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 10:13:05 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 10:22:25 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 10:22:25 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[17-May-2022 10:22:25 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 10:22:25 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 10:26:37 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[17-May-2022 10:26:37 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[17-May-2022 10:26:37 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[17-May-2022 10:27:41 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 10:27:41 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[17-May-2022 10:27:41 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 10:27:41 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 10:36:59 Asia/Manila] PHP Notice:  Undefined property: stdClass::$yr in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/get_main_activity.php on line 13
+[17-May-2022 10:38:06 Asia/Manila] PHP Notice:  Undefined property: stdClass::$yr in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/get_main_activity.php on line 13
+[17-May-2022 10:40:01 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 10:40:01 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[17-May-2022 10:40:01 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 10:40:01 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 10:41:49 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[17-May-2022 10:41:49 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[17-May-2022 10:41:49 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[17-May-2022 10:45:43 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 10:45:43 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 10:45:43 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 10:48:31 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[17-May-2022 10:48:31 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[17-May-2022 10:48:31 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[17-May-2022 10:59:27 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 10:59:27 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[17-May-2022 10:59:27 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 10:59:27 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 11:30:14 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 11:30:14 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 11:30:14 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 11:33:31 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 11:33:31 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 11:33:31 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 13:35:33 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 13:35:33 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[17-May-2022 13:35:33 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 13:35:33 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 13:38:35 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 13:38:35 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[17-May-2022 13:38:35 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 13:38:35 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 13:43:42 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[17-May-2022 13:43:42 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[17-May-2022 13:43:42 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[17-May-2022 13:58:34 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 13:58:34 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[17-May-2022 13:58:34 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 13:58:34 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 14:08:08 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 14:08:08 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 14:08:08 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 14:14:27 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[17-May-2022 14:14:27 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[17-May-2022 14:14:27 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[17-May-2022 14:40:25 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 14:40:25 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 14:40:25 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 15:00:05 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 15:00:05 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[17-May-2022 15:00:05 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 15:00:05 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 15:11:12 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 15:11:12 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[17-May-2022 15:11:12 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 15:11:12 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 15:37:25 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 15:37:25 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 15:37:25 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 15:55:45 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 15:55:45 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[17-May-2022 15:55:45 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 15:55:45 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 15:57:02 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 15:57:02 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[17-May-2022 15:57:02 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 15:57:02 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 16:16:57 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 16:16:57 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[17-May-2022 16:16:57 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 16:16:57 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 16:17:47 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 16:17:47 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[17-May-2022 16:17:47 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 16:17:47 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 16:19:24 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 16:19:24 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 16:19:24 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 16:20:12 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 16:20:12 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[17-May-2022 16:20:12 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 16:20:12 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 16:23:53 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 16:23:53 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[17-May-2022 16:23:53 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 16:23:53 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 16:26:18 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 16:26:18 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[17-May-2022 16:26:18 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 16:26:18 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 16:29:19 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[17-May-2022 16:29:19 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[17-May-2022 16:29:19 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[17-May-2022 16:29:19 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 09:23:58 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 09:23:58 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[18-May-2022 09:23:58 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 09:23:58 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 09:26:19 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 09:26:19 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[18-May-2022 09:26:19 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 09:26:19 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 09:29:49 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 09:29:49 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[18-May-2022 09:29:49 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 09:29:49 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 09:34:33 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 09:34:33 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[18-May-2022 09:34:33 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 09:34:33 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 09:38:18 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 09:38:18 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[18-May-2022 09:38:18 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 09:38:18 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 09:46:52 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 09:46:52 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[18-May-2022 09:46:52 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 09:46:52 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 09:49:20 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[18-May-2022 09:49:20 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[18-May-2022 09:49:20 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[18-May-2022 09:51:05 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 09:51:05 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[18-May-2022 09:51:05 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 09:51:05 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 10:02:41 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 10:02:41 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[18-May-2022 10:02:41 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 10:02:41 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 10:11:08 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 10:11:08 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[18-May-2022 10:11:08 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 10:11:08 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 10:13:46 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 10:13:46 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[18-May-2022 10:13:46 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 10:13:46 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 10:15:20 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[18-May-2022 10:15:20 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[18-May-2022 10:15:20 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[18-May-2022 10:16:31 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 10:16:31 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[18-May-2022 10:16:31 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 10:16:31 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 10:28:45 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 10:28:45 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 10:28:45 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 10:32:09 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 10:32:09 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 10:32:09 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 10:51:25 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 10:51:25 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 10:51:25 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 11:03:11 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 11:03:11 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 11:03:11 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 11:04:47 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[18-May-2022 11:04:47 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[18-May-2022 11:04:47 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[18-May-2022 14:49:56 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 14:49:56 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 14:49:56 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 15:19:51 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 15:19:51 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 15:19:51 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 15:38:17 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 15:38:17 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 15:38:17 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 15:41:59 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 15:41:59 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 15:41:59 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 15:45:07 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 15:45:07 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 15:45:07 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 15:46:55 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 15:46:55 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 15:46:55 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 15:50:37 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 15:50:37 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 15:50:37 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 15:52:22 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 15:52:22 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 15:52:22 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 15:54:48 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 15:54:48 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 15:54:48 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 16:15:24 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 16:15:24 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 16:15:24 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 16:16:32 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[18-May-2022 16:16:32 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[18-May-2022 16:16:32 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[18-May-2022 16:19:22 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[18-May-2022 16:19:22 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[18-May-2022 16:19:22 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[18-May-2022 16:33:26 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[18-May-2022 16:33:26 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[18-May-2022 16:33:26 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[18-May-2022 16:35:42 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 16:35:42 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 16:35:42 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 16:38:01 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 16:38:01 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 16:38:01 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 16:40:04 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 16:40:04 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 16:40:04 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 16:51:17 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 16:51:17 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 16:51:17 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 16:53:59 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[18-May-2022 16:53:59 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[18-May-2022 16:53:59 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 09:28:32 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[19-May-2022 09:28:32 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[19-May-2022 09:28:32 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 09:28:32 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 09:53:51 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[19-May-2022 09:53:51 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 09:53:51 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 10:04:39 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[19-May-2022 10:04:39 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 10:04:39 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 10:25:18 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[19-May-2022 10:25:18 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 10:25:18 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 10:36:24 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[19-May-2022 10:36:24 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[19-May-2022 10:36:24 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 10:36:24 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 10:43:56 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[19-May-2022 10:43:56 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[19-May-2022 10:43:56 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 10:43:56 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 10:50:54 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[19-May-2022 10:50:54 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[19-May-2022 10:50:54 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 10:50:54 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 10:56:40 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[19-May-2022 10:56:40 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[19-May-2022 10:56:40 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 10:56:40 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 11:39:48 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[19-May-2022 11:39:48 Asia/Manila] PHP Notice:  Undefined property: stdClass::$budget in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 37
+[19-May-2022 11:39:48 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 11:39:48 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 11:48:16 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[19-May-2022 11:48:16 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 11:48:16 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 13:35:27 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[19-May-2022 13:35:27 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 13:35:27 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 13:38:58 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[19-May-2022 13:38:58 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[19-May-2022 13:38:58 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[19-May-2022 13:44:34 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[19-May-2022 13:44:34 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[19-May-2022 13:44:34 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[19-May-2022 13:47:29 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[19-May-2022 13:47:29 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 13:47:29 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 13:54:38 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[19-May-2022 13:54:38 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 13:54:38 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 13:56:17 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[19-May-2022 13:56:17 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[19-May-2022 13:56:17 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[19-May-2022 14:17:01 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[19-May-2022 14:17:01 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 14:17:01 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 15:05:28 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[19-May-2022 15:05:28 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 15:05:28 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 15:13:52 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[19-May-2022 15:13:52 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 15:13:52 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 15:24:14 Asia/Manila] PHP Notice:  Undefined property: stdClass::$idsubactivities in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 34
+[19-May-2022 15:24:14 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[19-May-2022 15:24:14 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/update_indicator.php on line 41
+[19-May-2022 15:37:04 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[19-May-2022 15:37:04 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 15:37:04 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 15:45:09 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[19-May-2022 15:45:09 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 15:45:09 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 16:12:20 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[19-May-2022 16:12:20 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 16:12:20 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 16:35:59 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[19-May-2022 16:35:59 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 16:35:59 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 16:50:34 Asia/Manila] PHP Notice:  Undefined property: stdClass::$TargetWeight in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 31
+[19-May-2022 16:50:34 Asia/Manila] PHP Notice:  Undefined variable: _SESSION in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39
+[19-May-2022 16:50:34 Asia/Manila] PHP Notice:  Trying to access array offset on value of type null in /home/pcsdgovp/public_html/mis/v1/pages/input_Activities/model/save_indicator.php on line 39

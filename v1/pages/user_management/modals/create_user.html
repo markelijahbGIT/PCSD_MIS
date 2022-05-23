@@ -1,0 +1,112 @@
+<md-card class="autooverflowy">
+<div style="visibility: hidden" >
+ 
+
+    <div  class="md-dialog-container" id="create_user">
+
+
+
+      <md-dialog   layout-padding >
+                <md-button ng-click = "hideDialog($event, 'create_user')" style="color: blue;">
+                    <md-icon ng-bind="'undo'" style="color: blue;"></md-icon> Back
+                </md-button>
+            <br><br>
+
+            <h3>Add New User</h3><br>
+            <div >
+                <form name="form_new_user" ng-init="new_user = {data : {}}">
+                <div layout-gt-sm="row">
+                    <md-input-container class="md-block" flex-gt-sm>
+                        <label>User Type/Level</label>
+                        <md-select ng-model="new_user.level" required>
+                          <md-option ng-repeat="x in accountType" value="{{x}}">
+                            {{x}}
+                          </md-option>
+                        </md-select>
+                    </md-input-container>
+
+
+                    <md-input-container class="md-block" flex-gt-sm>
+                        <label>First name</label>
+                        <input ng-model="new_user.firstname" required>
+                    </md-input-container>
+
+                    <md-input-container class="md-block" flex-gt-sm>
+                        <label>Middle Name</label>
+                        <input ng-model="new_user.middlename" required>
+                    </md-input-container>
+
+                    <md-input-container class="md-block" flex-gt-sm>
+                        <label>Last Name</label>
+                        <input ng-model="new_user.lastname" required>
+                    </md-input-container>
+
+
+                </div>
+
+                <div layout-gt-sm="row">
+                    <!-- <md-input-container class="md-block" flex-gt-sm>
+                        <label>Designation</label>
+                        <input ng-model="new_user.designation" >
+                    </md-input-container> -->
+
+                    <md-input-container class="md-block" flex-gt-sm>
+                        <label>Employee Number</label>
+                        <input ng-model="new_user.employee_no" required>
+                    </md-input-container>
+
+                    <md-input-container class="md-block" flex-gt-sm>
+                        <label>email</label>
+                        <input ng-model="new_user.email" required>
+                    </md-input-container>
+
+                    <md-input-container class="md-block" flex-gt-sm>
+                        <label>User Key</label>
+                        <input ng-model="new_user.user_key" name="pass1" min="6" type="password" required>
+                        <div class="hint col-red" ng-show="form_new_user.pass1.$dirty && new_user.user_key.length < 6">6 Minimum Characters</div>
+                    </md-input-container>
+
+                    <md-input-container class="md-block" flex-gt-sm>
+                        <label>Re-KEY</label>
+                        <input ng-model="re_password" min="6" type="password" name="password" required>
+                        <div class="hint col-red" ng-show="new_user.user_key !== re_password && form_new_user.user_key.$dirty">Password didn't match!</div>
+                    </md-input-container>
+
+                </div>
+
+                <div layout-gt-sm="row">
+
+                    <md-input-container class="md-block" flex-gt-sm>
+                                <label>Division</label>
+                        <md-select ng-model= "new_user.division" required>
+                            <md-option ng-repeat = "list in Divisions"  ng-click = "DIVISION_FOR_PROJECT(list.name)"  value = {{list.name}}> 
+                                {{list.name}} 
+                            </md-option>
+                            
+                        </md-select>
+                    </md-input-container>
+
+                    <!-- <md-input-container class="md-block"  ng-hide = "EMED__EPRPD_P"  flex-gt-sm>
+                        <label>PROJECT</label>
+                            <md-select ng-model= "new_user.project" ng-hide = "EMED__EPRPD_P">
+                                <md-option ng-repeat = "list in PROJECT"   value = {{list.name}}> 
+                                    {{list.name}} 
+                                </md-option>
+                                
+                            </md-select>
+                    </md-input-container> -->
+
+                </div>
+                    <div layout="row" layout-align="end end">
+                    <md-button type="submit" ng-disabled="form_new_user.$invalid || new_user.user_key !== re_password" ng-click="create_new_user(new_user)" class="md-raised md-block md-primary" >
+                        Create user
+                     </md-button>
+                    </div>
+                </form>
+            </div>
+            </div>
+
+</md-dialog>
+
+</div>
+</md-card>

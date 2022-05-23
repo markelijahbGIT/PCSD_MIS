@@ -1,0 +1,346 @@
+<!--  <?php
+session_start();
+if (isset($_COOKIE['authorize'])){
+if ($_COOKIE['authorize'] ==0)
+{
+header('Location: index.html');
+}}
+?> 
+ -->
+
+<html ng-app="PMS">
+<head>
+
+	<link rel="icon" href="logo1.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="lib/angular.min.js"></script>
+	<script src="lib/angular-animate.min.js"></script>
+	<script src="lib/angular-aria.min.js"></script>
+	<script src="lib/angular-messages.min.js"></script>
+
+
+	<script src="lib/Chart.js"></script>
+	<script src="lib/angular-chart.min.js"></script>
+
+
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/ng-table.min.js"></script>
+	<script src="lib/angular-material.min.js"></script>
+	<script src="js/Controller/controller.js" type="text/javascript">    </script>
+	<script src="js/jquery.js"></script>
+
+	<script src="node_modules/angular-material-badge/angular-material-badge.min.js"></script>
+
+
+
+	<script src="js/ng-file-upload.min.js"></script>
+
+	<script src= "js/sweetalert2.js" type="text/javascript"></script>
+
+	<script src="js/loginmain.js" type="text/javascript"></script>
+
+	<script type="text/javascript" src="js/qrcode.js"></script>
+
+	
+	<!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
+
+	<link rel="stylesheet"; href="css/bootstrap.min.css">
+	<link rel="stylesheet"; href="css/ng-table.min.css">
+	
+	<link href="fonts/iconfont/material-icons.css" rel="stylesheet">
+	<link href="css/material-design-icons.css" rel="stylesheet">
+
+	<link href="css/sweetalert2.css" rel="stylesheet">
+	<link rel="stylesheet" href="fonts/Roboto.css">
+	<link rel="stylesheet" href="node_modules/angular-material-badge/angular-material-badge.min.css" />
+	<link href="css/Chart.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/angular-material.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+</head>
+
+<body md-dynamic-height ng-controller="MainController" style="overflow-y: auto;" ng-init="get_Current_Year();loggedin();current_Page = 'pages/viewData/views/Main.html';get_notification_count();">
+	<!-- set_User_Level(); -->
+<!-- pages/input_Activities/views/main.html -->
+<!-- {{current_Page}} -->
+
+	<div flex="100"  >
+		
+		<md-toolbar style="background: #000000;">
+
+			<div class="md-toolbar-tools">
+
+				<!-- ng-show="loggedIn"  -->
+				<!-- <md-button class="md-icon-button" aria-label="Settings" ng-disabled="false" ng-click="openSidebarLeft()" >
+					<md-icon ng-bind="'view_lists'" ></md-icon>
+				</md-button> -->
+				
+				<img style="width:50px" src="pages/pcsd_logo.png">
+				
+
+				<h2 flex md-truncate> PCSD<br> Management Information System</h2>
+
+				<!-- <md-button class="md-icon-button" aria-label="Favorite" ng-click="API_TEST_login()">
+					 <md-icon ng-bind="'home'" ></md-icon>
+					 <md-tooltip>API test login</md-tooltip>	
+				</md-button> -->
+				<!-- <md-button class="md-icon-button" aria-label="Favorite" ng-click="show_jwt()">
+					 <md-icon ng-bind="'home'" ></md-icon>
+					 <md-tooltip>API SHOW JWT</md-tooltip>	
+				</md-button> -->
+<!-- ng-show="loggedIn" -->
+			
+			<div ng-show="loggedIn" class="input-group-prepend">
+                <input type="text" class="form-control" ng-model ="SearchData" placeholder="Search" aria-describedby="basic-addon1">
+            </div>
+				<md-button ng-show="loggedIn"  class="md-icon-button" aria-label="Favorite" ng-click="openSidebarRight()">
+					 <md-icon ng-bind="'work_outline'" ></md-icon>
+					 <md-tooltip>Show Functions</md-tooltip>
+				</md-button>
+
+				<md-button ng-show="loggedIn" class="md-icon-button" aria-label="Favorite" ng-click="current_Page = ''">
+					 <md-icon ng-bind="'home'" ></md-icon>
+					 <md-tooltip>Go to Home/Dashboard</md-tooltip>	
+				</md-button>
+
+				<md-button ng-show="loggedIn"  ng-show="mis_dashboard"  class="md-icon-button" aria-label="Favorite" ng-click="show_notification_table($event)" >
+					<!-- md-badge="{{notification_count}}"  style="min-width: 5px" -->
+
+					<!-- ng-click="current_Page ='PhaseI/serviceReminders/views/Main.html'" -->
+					<!-- <md-badge>12</md-badge> -->
+ 
+					<!-- <ng-md-icon md-badge="12" icon="notifications"></ng-md-icon> -->
+ 					<!-- <span class="badge" style=" background: red;">{{notification_count}}</span> -->
+
+					 <md-icon   ng-bind="'notifications_active'" ></md-icon>
+					 <md-tooltip>Notifications</md-tooltip>
+
+					
+				</md-button>
+				<div ng-show="notification_count > 0" md-badge="{{notification_count}}" style="margin-left: -12px; margin-top: -5px; top:15px;" ></div>
+<!-- style="position: absolute; display: initial; left: 98%; top: 20px;" -->
+
+			<!-- 	<a style="margin-right: 20px" >
+					<span class="badge">{{notification_count}}</span>
+					<md-icon  ng-click="" ng-bind="'notifications_active'" ></md-icon>
+			  		
+				</a> -->
+
+
+
+
+			</div>
+
+		</md-toolbar>
+
+	</div>	
+
+	<md-sidenav  class="md-sidenav-right" md-component-id="right" md-whiteframe="4">
+		<md-toolbar style="background-color:#89A4C7" layout="row">
+		<h1 class="md-toolbar-tools">Functions</h1>
+		<md-button class="md-icon-button" aria-label="Favorite" ng-click="closeSidebarRight()">
+					 <md-icon ng-bind="'close'" ></md-icon>
+					 <md-tooltip>close</md-tooltip>
+				</md-button>
+
+		</md-toolbar>
+		 
+		<md-content flex layout="column">
+				
+				<md-list flex="0" align="left" layout="column">
+
+					
+
+					<md-list-item ng-hide="mis_dashboard"  ng-click="current_Page = 'pages/inputAccomp/views/Main.html'">
+						<md-icon ng-bind="'gps_fixed'"></md-icon> 
+						<div flex ><strong>Submit Accomplishment</strong></div>
+						
+					</md-list-item>
+
+					<md-list-item ng-click="get_Indicators_Year(Selected_Year);get_Accomplishment_Submissions();current_Page = 'pages/viewData/views/Accomplishment_Submissions.html';">
+						<md-icon ng-bind="'article'"></md-icon> 
+						<div flex ><strong ng-hide="mis_dashboard">My</strong> <strong>Submissions</strong></div>
+						
+					</md-list-item>
+
+					<md-list-item ng-click="current_Page = 'pages/viewData/views/Main.html'" >
+						<md-icon ng-bind="'visibility'"></md-icon> 
+						<div flex="" ><strong>View Indicator Data</strong></div>
+					</md-list-item>
+
+					<md-list-item ng-show="mis_dashboard" ng-click="current_Page = 'pages/inputAccomp/views/Edit.html'">
+						<md-icon ng-bind="'edit'"></md-icon> 
+						<div flex ><strong>Edit Accomplishment</strong></div>
+						
+					</md-list-item>
+
+					
+
+					<!-- <md-list-item ng-click="current_Page = 'pages/viewData/views/Main.html'" >
+						<md-icon ng-bind="'visibility'"></md-icon> 
+						<div flex="" ><strong>View Sub Activity Expenses</strong></div>
+					</md-list-item> -->
+
+					<md-list-item ng-show="false" ng-click="current_Page = 'pages/IPCR/views/main.html'">
+						<md-icon ng-bind="'list'"></md-icon> 
+						<div flex ><strong>IPCR</strong></div>
+						
+					</md-list-item>
+
+					<md-list-item ng-show="mis_dashboard" ng-click="current_Page = 'pages/input_Activities/views/main.html'">
+						<md-icon ng-bind="'build'"></md-icon> 
+						<div flex><strong>Administrator</strong></div>
+					</md-list-item>
+
+					<md-list-item  ng-click="change_Password($event)">
+						<md-icon ng-bind="'vpn_key'"></md-icon> 
+						<div flex><strong>Change Password</strong></div>
+					</md-list-item>
+
+					<md-list-item  ng-click="logOut()">
+						<md-icon ng-bind="'power_setting_new'"></md-icon> 
+						<div flex><strong>Log Out</strong></div>
+					</md-list-item>
+			
+					
+				</md-list>
+				
+
+		</md-content>
+
+	</md-sidenav>
+
+
+	<md-sidenav layout="column" class="md-sidenav-left" md-component-id="left" md-whiteframe="4" >
+
+	  
+	  <md-content flex layout="column" >
+
+	    <div flex="25" layout="column">
+          <md-card flex="85" layout="column">
+            <md-card-header>
+              <md-card-avatar>
+                <img class="md-user-avatar" src="images/girl.jpeg">
+              </md-card-avatar>
+              <md-card-header-text>
+                <span class="md-title">{{user_name}}</span>
+                <span class="md-subhead">{{user_level}}</span>
+              </md-card-header-text>
+            </md-card-header>
+           
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline">Overview</span>
+                <span class="md-subhead">{{date}}</span>
+              </md-card-title-text>
+            </md-card-title>
+            
+              <md-list flex="0" align="left"> 
+
+                <md-list-item  ng-click="current_Page = 'pages/inputAccomp/views/Main.html'">
+						<md-icon ng-bind="'gps_fixed'"></md-icon> 
+						<div flex ><strong>Input Accomplishment</strong></div>
+						
+					</md-list-item>
+
+					<md-list-item ng-click="current_Page = 'pages/viewData/views/Main.html'" >
+						<md-icon ng-bind="'preview'"></md-icon> 
+						<div flex="" ><strong>View Data</strong></div>
+					</md-list-item>
+
+					<md-list-item  ng-click="current_Page = 'PhaseI/jobOrders/views/Main.html'">
+						<md-icon ng-bind="'build'"></md-icon> 
+						<div flex><strong>Administrator</strong></div>
+					</md-list-item>
+
+					
+
+
+              </md-list>
+            
+          </md-card>
+        </div>
+	    
+	  
+
+	  </md-content>
+
+	</md-sidenav>
+	<!--  <input id="text" type="text" value="{{qrValue}}" style="width:80%" hidden />
+        <div id="qrcode" style="width:100px; height:100px; margin-top:15px;"></div>
+
+        <button ng-click="set_QR_value()">hit meh!!</button> -->
+         <!-- <script type="text/javascript">
+			var qrcode = new QRCode(document.getElementById("qrcode"), {
+			  width : 100,
+			  height : 100
+			});
+
+			function makeCode () {    
+			  var elText = document.getElementById("text");
+			  
+			  if (!elText.value) {
+			    alert("Input a text");
+			    elText.focus();
+			    return;
+			  }
+			  
+			  qrcode.makeCode(elText.value);
+			}
+
+			makeCode();
+
+			$("#text").
+			  on("blur", function () {
+			    makeCode();
+			  }).
+			  on("keydown", function (e) {
+			    if (e.keyCode == 13) {
+			      makeCode();
+			    }
+			  });
+		</script> -->
+
+		<div ng-hide="loggedIn" flex ="100" style="background-color:lightgrey;" layout="column">
+
+			<ng-include flex="grow" src="'pages/login/views/login.html'"> </ng-include>
+
+		</div>
+
+		<div  ng-show="loggedIn" flex ="100" style="background-color:lightgrey;" layout="column">
+			<!-- {{loggedIn}} -->
+
+			<ng-include flex="grow" src="current_Page"> </ng-include>
+			
+
+		</div>
+
+
+		<div ng-include="'pages/inputAccomp/modals/input_accomplishment_dialog.html'"></div>
+		<div ng-include="'pages/inputAccomp/modals/edit_accomplishment_dialog.html'"></div>
+
+		<div ng-include="'pages/viewData/modals/show_indic_accomp.html'"></div>
+		<div ng-include="'pages/viewData/modals/show_indic_accomp_MIS.html'"></div>
+		<div ng-include="'pages/viewData/modals/decline_remarks.html'"></div>
+		
+
+		<div ng-include="'pages/viewData/modals/indic_accomp_chart.html'"></div>
+		<div ng-include="'pages/viewData/modals/monthly_accomp_chart.html'"></div>
+
+		<div ng-include="'pages/viewData/modals/expense_sub_activity.html'"></div>
+
+		<div ng-include="'pages/viewData/modals/indicator_bar_chart.html'"></div>
+		<div ng-include="'pages/notifications_modal.html'"></div>
+
+		<div ng-include="'pages/user_management/modals/create_user.html'"></div>
+
+
+
+			        
+
+</body>
+
+</html>
+

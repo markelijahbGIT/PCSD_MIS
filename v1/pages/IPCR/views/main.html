@@ -1,0 +1,224 @@
+<html>
+<body >
+
+<md-card flex align = "center">
+  <h1>IPCR</h1>
+
+<!-- {{Main_Activity_new}} -->
+<md-tabs ng-init="get_Current_Year();get_IPCR_indicators(Selected_Year)" flex="grow" md-dynamic-height md-border-bottom>
+  <md-tab label = "Input Accomplishment" ng-click="get_IPCR_indicators(Selected_Year)">
+      <h2>Select Indicator from List</h2>
+
+
+  <div flex layout ="column"   style="color:black;" layout-align="fill" >
+    
+  <md-list flex="grow" >
+                   
+                   <md-divider></md-divider> 
+                   
+                   <h2>Indicator List</h2>                  
+                  <md-list-item flex ng-repeat="data in indicator_list|filter:search" class="md-3-line"  ng-click= 'show_input_indicator_accomp_dialog($event, data)'>
+                    <div flex="35" class="md-list-item-text" layout="column" >
+                      
+                      <div layout="row">
+                          <h4 flex="30"><strong>Activity Title: </strong></h4>
+                          <h4 flex="70">{{ data.ipcr_outputs_activity_title}}</h4>
+                      </div>
+                       <div layout="row">
+                          <h4 flex="30">ipcr_first_sem_target: </h4>
+                          <h4 flex="70">{{ data.ipcr_first_sem_target}}</h4>
+                      </div>
+
+                      <div layout="row">
+                          <h4 flex="30">ipcr_second_sem_target: </h4>
+                          <h4 flex="70">{{ data.ipcr_second_sem_target}}</h4>
+                      </div>
+                    </div>
+
+                    <div flex="35" class="md-list-item-text" layout="column" >
+                      
+                      <div layout="row">
+                          
+                      </div>
+                       <div layout="row">
+                          <h4 flex="30">ipcr_first_sem_target_no: </h4>
+                          <h4 flex="70">{{ data.ipcr_first_sem_target_no}}</h4>
+                      </div>
+
+                      <div layout="row">
+                          <h4 flex="30">ipcr_second_sem_target_no: </h4>
+                          <h4 flex="70">{{ data.ipcr_second_sem_target_no}}</h4>
+                      </div>
+                    </div>
+              
+
+          <md-divider ></md-divider>  
+        </md-list-item>
+
+      </md-list>
+
+  
+</div>
+
+
+
+
+  </md-tab>
+
+
+  <md-tab label = "Create Outputs" >
+
+    <md-card>
+      <div align="center" ng-init = "get_Current_Year();">
+        <h1>Create Outputs for IPCR</h1>
+        <h3></h3>
+        <div flex="50" layout="column">
+            <md-input-container flex = "20">
+              <label align="left">Year</label>
+              <md-select  ng-model="outputs.yr" ng-change="">
+
+
+                <md-option ng-value="data.value" ng-repeat="data in AllYears">
+                  {{ data.name }}
+                </md-option>
+              </md-select>
+            </md-input-container >
+        
+            <md-input-container flex = "20">
+              <label align="left">Title:</label>
+              <input type="text" ng-model="outputs.ipcr_outputs_activity_title" style="padding-left: 20;">
+            </md-input-container>
+
+            <md-button class="md-primary md-raised" ng-click="save_output(outputs)">
+            Submit
+          </md-button>
+
+        </div>
+      
+
+      <div flex layout ="column"   style="color:black;" layout-align="fill" >
+    
+  <!-- <md-list flex="grow" >
+                   
+                   <md-divider></md-divider>                   
+                  <md-list-item flex ng-repeat="data in Main_Activity_List|filter:search" class="md-3-line"  ng-click = ''>
+                    <div flex="35" class="md-list-item-text" layout="column" >
+                      
+                      <div layout="row">
+                          <h4 flex="30"><strong>Title: </strong></h4>
+                          <h4 flex="70">{{ data.Title}}</h4>
+                      </div>
+                       <div layout="row">
+                          <h4 flex="30"><strong>MFO: </strong></h4>
+                          <h4 flex="70">{{ data.MFONo}}</h4>
+                      </div>
+                    </div>
+              
+
+          <md-divider ></md-divider>  
+        </md-list-item>
+
+      </md-list> -->
+
+  
+</div>
+
+
+
+
+
+        </div>
+
+</md-card>
+
+
+  </md-tab>
+
+    <md-tab label = "Create Indicators" ng-click="get_outputs(Selected_Year)">
+      <div align="center" ng-init = "get_Current_Year();">
+        <h1>Create Indicators</h1>
+        <h3>Select from Outputs List</h3>
+
+        <md-input-container flex = "20">
+          <label align="left">Year</label>
+          <md-select  ng-model="Selected_Year" ng-change="get_outputs(Selected_Year);">
+
+
+            <md-option ng-value="data.value" ng-repeat="data in AllYears">
+              {{ data.name }}
+            </md-option>
+          </md-select>
+        </md-input-container >
+    
+        <md-input-container flex="20" style="padding-left: 20;">
+          <label align="left" style="padding-left: 20;">Search</label>
+            <input type="text" ng-model="search" style="padding-left: 20;">
+         </md-input-container>
+
+
+         <div flex layout ="column"   style="color:black;" layout-align="fill" >
+    
+  <md-list flex="grow" >
+                   
+                   <md-divider></md-divider> 
+                   
+                   <h2>Output List</h2>                  
+                  <md-list-item flex ng-repeat="data in output_list|filter:search" class="md-3-line"  ng-click= 'show_IPCR_input_indicator_dialog($event, data.ipcr_outputs_id, data)'>
+                    <div flex="35" class="md-list-item-text" layout="column" >
+                      
+                      <div layout="row">
+                          <h4 flex="30"><strong>Title: </strong></h4>
+                          <h4 flex="70">{{ data.ipcr_outputs_activity_title}}</h4>
+                      </div>
+                       <div layout="row">
+                          <h4 flex="30">Year: </h4>
+                          <h4 flex="70">{{ data.ipcr_outputs_year}}</h4>
+                      </div>
+                    </div>
+              
+
+          <md-divider ></md-divider>  
+        </md-list-item>
+
+      </md-list>
+
+  
+</div>
+
+
+        </div>
+
+  </md-tab>
+
+  <md-tab label = "View Summary" ng-click="get_outputs(Selected_Year)">
+      <div ng-include="'pages/IPCR/viewData/views/main.html'" align="center" ng-init = "get_Current_Year();">
+        <h2></h2>
+
+
+
+
+      </div>
+  </md-tab>
+
+
+ 
+
+</md-tabs>
+	
+
+<div ng-include="'pages/IPCR/modals/create_indicator_dialog.html'"></div>
+<div ng-include="'pages/IPCR/modals/input_indicator_accomp_dialog.html'"></div>
+
+<!-- <div ng-include="'pages/input_Activities/modals/input_sub_activity_dialog.html'"></div>
+
+<div ng-include="'pages/input_Activities/modals/input_indicator_dialog.html'"></div>
+
+	 -->
+
+</md-card>
+
+
+
+</body>
+
+</html>

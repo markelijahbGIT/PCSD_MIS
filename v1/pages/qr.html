@@ -1,0 +1,69 @@
+<html>
+<head><script src="./html5-qrcode.min.js"></script>
+
+
+
+</head>
+    <title>Html-Qrcode Demo</title>
+<body>
+<h1>Html-Qrcode Demo</h1>
+
+<div id="reader" width="600px"></div>
+
+
+<div id ="scanned-result"></div>
+
+<script type="text/javascript">
+  function onScanSuccess(qrMessage) {
+    // handle the scanned code as you like
+    console.log(`QR matched = ${qrMessage}`);
+    alert(qrMessage)
+}
+ 
+function onScanFailure(error) {
+    // handle scan failure, usually better to ignore and keep scanning
+    console.warn(`QR error = ${error}`);
+}
+ 
+let html5QrcodeScanner = new Html5QrcodeScanner(
+    "reader", { fps: 10, qrbox: 250 }, /* verbose= */ true);
+html5QrcodeScanner.render(onScanSuccess, onScanFailure);
+
+// This method will trigger user permissions
+Html5Qrcode.getCameras().then(devices => {
+  /**
+   * devices would be an array of objects of type:
+   * { id: "id", label: "label" }
+   */
+  if (devices && devices.length) {
+    var cameraId = devices[0].id;
+    // .. use this to start scanning.
+  }
+}).catch(err => {
+  // handle err
+});
+
+const html5QrCode = new Html5Qrcode(/* element id */ "reader");
+html5QrCode.start(
+  cameraId, 
+  {
+    fps: 10,    // Optional frame per seconds for qr code scanning
+    qrbox: 250  // Optional if you want bounded box UI
+  },
+  qrCodeMessage => {
+    // do something when code is read
+  },
+  errorMessage => {
+    // parse error, ignore it.
+  })
+.catch(err => {
+  // Start failed, handle it.
+});
+
+
+</script>
+</body>
+
+
+
+</html>

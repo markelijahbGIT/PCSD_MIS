@@ -1,0 +1,500 @@
+<html>
+<body>
+
+<md-card flex >
+
+<!-- {{Main_Activity_new}} -->
+<md-tabs flex="grow" md-dynamic-height md-border-bottom>
+  <md-tab label = "Main Activities" >
+
+    <md-card>
+      <div align="center" ng-init = "get_Current_Year();get_Main_activity(Selected_Year)">
+        <h1>Main Activities</h1>
+        <h3>Select Year and encode data.</h3>
+
+        
+    
+        <md-input-container flex="20" style="padding-left: 20;">
+          <label align="left" style="padding-left: 20;">Search</label>
+            <input type="text" ng-model="search" style="padding-left: 20;">
+         </md-input-container>
+
+         <br>
+         <md-input-container flex = "20" style="padding-bottom: 25;">
+          <label align="left">Year</label>
+          <md-select  ng-model="Main_Activity_new.yr" ng-change="get_Main_activity(Main_Activity_new.yr);get_Sub_activity(Main_Activity_new.yr);get_Indicators_Year(Main_Activity_new.yr);Selected_Year = Main_Activity_new.yr">
+
+
+            <md-option ng-value="data.value" ng-repeat="data in AllYears">
+              {{ data.name }}
+            </md-option>
+          </md-select>
+        </md-input-container >
+
+         <md-input-container flex = "20" style="padding-bottom: 25;">
+          <label align="left">P/A/P:</label>
+          <md-select  ng-model="Main_Activity_new.MFONo">
+
+
+            <md-option ng-value="data.value" ng-repeat="data in MFO">
+              {{ data.name }}
+            </md-option>
+          </md-select>
+        </md-input-container >
+
+        <md-input-container flex = "20">
+          <label align="center">Title:</label>
+          <input type="text" ng-model="Main_Activity_new.Title">
+        </md-input-container >
+        
+        <md-input-container flex = "20">
+          <label align="center">Code: </label>
+          <input type="text" ng-model="Main_Activity_new.Coding">
+          <span style="color: red"> e.g. REG-GMS-AFD-2022-01</span>
+        </md-input-container >
+
+        <md-input-container flex style="padding-left: 20;padding-bottom: 25;">
+          <label align="left" style="padding-left: 20;">Division</label>
+          <md-select  ng-model="Main_Activity_new.division" ng-change="">
+            <md-option ng-value="data.name" ng-repeat="data in Divisions">
+              {{ data.name }}
+            </md-option>
+          </md-select>
+        </md-input-container>
+        <br>
+
+        <md-button class="md-primary md-raised" ng-click="save_Main_activity(Main_Activity_new)">
+        Submit
+      </md-button>
+
+<!-- 
+
+      <md-switch ng-init = "switch_val = true" ng-model = "switch_val" aria-label = "view">
+      Table View </md-switch> -->
+
+      <div flex layout ="column"   style="color:black;" layout-align="fill" >
+    
+  <!-- <md-list flex="grow" >
+                   
+                   <md-divider></md-divider>                   
+                  <md-list-item flex ng-repeat="data in Main_Activity_List|filter:search" class="md-3-line"  
+                              ng-click= "show_edit_Main_activity_dialog($event,data)">
+                    <div flex="35" class="md-list-item-text" layout="column" >
+
+                      <div layout="row">
+                          <h4 flex="30"><strong>P/A/P: </strong></h4>
+                          <h4 flex="70">{{ data.MFONo}}</h4>
+                      </div>
+                      <div layout="row">
+                          <h4 flex="30"><strong>Title: </strong></h4>
+                          <h4 flex="70">{{ data.Title}}</h4>
+
+                          
+                      </div>
+
+                      
+                       
+                    </div>
+              
+
+          <md-divider ></md-divider>  
+        </md-list-item>
+
+      </md-list> -->
+    </div>
+
+   <!--  <md-input-container flex style="padding-left: 20;">
+          <label align="left" style="padding-left: 20;">Division</label>
+          <md-select  ng-model="selected.division" ng-change="">
+            <md-option ng-value="data.name" ng-repeat="data in Divisions">
+              {{ data.name }}
+            </md-option>
+          </md-select>
+        </md-input-container> -->
+     
+    <div>
+        <div  id="tableToExport">
+            <table>
+              <thead>
+                <tr>
+                   <th>P/A/P</th>
+                   <th>Title</th>
+                   <th>Code</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr flex ng-repeat="data in Main_Activity_List|filter:search | filter:{Division : Main_Activity_new.division}" 
+                ng-click= "show_edit_Main_activity_dialog($event,data)">
+                  <td>{{ data.MFONo}}</td>
+                  <td>{{ data.Title}}</td>
+                  <td>{{ data.Coding}}</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+
+    </div>
+
+
+  
+</div>
+
+
+
+        </div>
+
+</md-card>
+
+
+  </md-tab>
+
+  <md-tab label = "Sub Activities" ng-click="get_Main_activity(Selected_Year)">
+      <div align="center" ng-init = "get_Current_Year();">
+        <h1>Add Sub Activities</h1>
+        <h3>Select from Main Activity List</h3>
+
+        <md-input-container flex = "20" style="padding-bottom: 25;">
+          <label align="left">Year</label>
+          <md-select  ng-model="Selected_Year" ng-change="get_Sub_activity(Selected_Year);get_Indicators_Year(Selected_Year);get_Main_activity(Selected_Year)">
+            <md-option ng-value="data.value" ng-repeat="data in AllYears">
+              {{ data.name }}
+            </md-option>
+          </md-select>
+        </md-input-container >
+
+        <md-input-container flex style="padding-left: 20;padding-bottom: 25;">
+          <label align="left" style="padding-left: 20;">Division</label>
+          <md-select  ng-model="selected.division" ng-change="">
+            <md-option ng-value="data.name" ng-repeat="data in Divisions">
+              {{ data.name }}
+            </md-option>
+          </md-select>
+        </md-input-container>
+
+    
+        <md-input-container flex="20" style="padding-left: 20;">
+          <label align="left" style="padding-left: 20;">Search</label>
+            <input type="text" ng-model="search" style="padding-left: 20;">
+         </md-input-container>
+
+         
+
+
+             <div flex layout ="column"   style="color:black;" layout-align="fill" >
+        
+                <!-- <md-list flex="grow" >
+                       
+                              <md-divider></md-divider>                   
+                    <md-list-item flex ng-repeat="data in Main_Activity_List|filter:search" class="md-3-line"  ng-click= 'show_input_sub_activity_dialog($event,data)'>
+                    <div flex="35" class="md-list-item-text" layout="column" >
+                          
+                        <div layout="row">
+                              <h4 flex="30"><strong>Title: </strong></h4>
+                              <h4 flex="70">{{ data.Title}}</h4>
+                        </div>
+                        <div layout="row">
+                              <h4 flex="30"><strong>PAP: </strong></h4>
+                              <h4 flex="70">{{ data.MFONo}}</h4>
+                        </div>
+                    </div>
+
+
+                        
+
+                  
+
+                                <md-divider ></md-divider>  
+                    </md-list-item>
+
+                </md-list>  -->
+            </div>
+            <div>
+              <div  id="tableToExport">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Title</th>
+                      <th>PAP:</th>
+                      <th>Code:</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr flex ng-repeat="data in Main_Activity_List|filter:search | filter:{Division : selected.division}" class="md-3-line"  ng-click= 'show_input_sub_activity_dialog($event,data)'>
+                      <td>{{ data.Title}}</td>
+                      <td>{{ data.MFONo}}</td>
+                      <td>{{ data.Coding}}</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+
+
+      </div>
+
+  </md-tab>
+
+
+  <md-tab label = "Indicators" ng-click="get_Sub_activity(Selected_Year);get_Indicators_Year(Selected_Year)">
+      <div align="center" >
+        <h1>Add Indicators</h1>
+        <h3>Select from SUB Activity List</h3>
+
+        <md-input-container flex = "20" style="padding-bottom: 25;">
+         
+          <md-select  ng-model="Selected_Year" ng-change="get_Sub_activity(Selected_Year);get_Indicators_Year(Selected_Year)">
+
+
+            <md-option ng-value="data.value" ng-repeat="data in AllYears" style="padding-bottom: 25;">
+              {{ data.name }}
+            </md-option>
+          </md-select>
+        </md-input-container >
+    
+        
+
+         <md-input-container flex style="padding-left: 20;padding-bottom: 25;">
+          <label align="left" style="padding-left: 20;">Division</label>
+          <md-select  ng-model="selected.division" ng-change="">
+            <md-option ng-value="data.name" ng-repeat="data in Divisions">
+              {{ data.name }}
+            </md-option>
+          </md-select>
+        </md-input-container>
+
+        <md-input-container flex="20" style="padding-left: 20;">
+          <label align="left" style="padding-left: 20;">Search</label>
+            <input type="text" ng-model="search" >
+         </md-input-container>
+
+
+         <div flex layout ="column"   style="color:black;" layout-align="fill" >
+    
+  <!-- <md-list flex="grow" >
+     <h2 align="center">Sub Activities</h2>
+                   
+                   <md-divider></md-divider>                   
+                  <md-list-item flex ng-repeat="data in Sub_Activity_List|filter:search" class="md-3-line"  ng-click= 'show_input_indicator_dialog($event,data.idsubactivities)'>
+                    <div flex="35" class="md-list-item-text" layout="column" >
+                      
+                      <div layout="row">
+                          <h4 flex="30"><strong>Title: </strong></h4>
+                          <h4 flex="70">{{ data.Title}}</h4>
+                      </div>
+                       <div layout="row">
+                          <h4 flex="30"><strong>PAP: </strong></h4>
+                          <h4 flex="70">{{ data.MFONo}}</h4>
+                      </div>
+                    </div>
+              
+
+          <md-divider ></md-divider>  
+        </md-list-item>
+
+  </md-list> -->
+
+
+
+
+      <div>
+        <div  id="tableToExport">
+      <table>
+        <thead>
+            <tr>
+              <th>Code</th>
+              <th>Title</th>
+              <th>Division</th>
+              <th>PAP:</th>
+            </tr>
+        </thead>
+
+        <tbody>
+          <tr flex ng-repeat="data in Sub_Activity_List|filter:search | filter:{Division : selected.division}" ng-click= 'show_input_indicator_dialog($event,data.idsubactivities)'>
+            <td>{{data.Coding}}</td>
+            <td>{{data.Title}}</td>
+            <td>{{data.Division}}</td>
+            <td>{{data.MFONo}}</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+  
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+  </md-tab>
+
+
+
+  <md-tab label = "List of Indicators" ng-click="get_Indicators_Year(Selected_Year)">
+
+    <md-input-container flex = "20" style="padding-bottom: 25;">
+         
+          <md-select  ng-model="Selected_Year" ng-change="get_Indicators_Year(Selected_Year);">
+
+
+            <md-option ng-value="data.value" ng-repeat="data in AllYears">
+              {{ data.name }}
+            </md-option>
+          </md-select>
+        </md-input-container >
+
+
+     <md-input-container flex="20" style="padding-left: 20;">
+          <label align="left" style="padding-left: 20;">Search</label>
+            <input type="text" ng-model="search" >
+         </md-input-container>
+         <md-input-container flex style="padding-left: 20;padding-bottom: 25;">
+          <label align="left" style="padding-left: 20;">Division</label>
+          <md-select  ng-model="selected.division" ng-change="">
+            <md-option ng-value="data.name" ng-repeat="data in Divisions">
+              {{ data.name }}
+            </md-option>
+          </md-select>
+        </md-input-container>
+
+
+         <div flex layout ="column"   style="color:black;" layout-align="fill" >
+    
+           <!--  <md-list flex="grow" >
+                   
+                   <md-divider></md-divider>                   
+                  <md-list-item flex ng-repeat="indicator in indicator_data|filter:search" class="md-3-line"  
+                  ng-click = "edit_indicator()">
+
+                     <div flex="35" class="md-list-item-text" layout="column" >
+                      <div layout="row">
+                          <h4 flex="30"><strong>P/A/P: </strong></h4>
+                          <h4 flex="70">{{ indicator.MFONo}}</h4>
+                      </div>
+                      <div layout="row">
+                          <h4 flex="30"><strong>Main Activity: </strong></h4>
+                          <h4 flex="70">{{ indicator.Main_Activity}}</h4>
+                      </div>
+                       <div layout="row">
+                          <h4 flex="30"><strong>Sub Activity: </strong></h4>
+                          <h4 flex="70">{{ indicator.Sub_Activity}}</h4>
+                      </div>
+                    </div>
+
+                    <div flex="35" class="md-list-item-text" layout="column" >
+                      
+                      <div layout="row">
+                          <h4 flex="30"><strong>Title: </strong></h4>
+                          <h4 flex="70">{{ indicator.Title}}</h4>
+                      </div>
+                       <div layout="row">
+                          <h4 flex="30"><strong>Annual Target: </strong></h4>
+                          <h4 flex="70">{{ indicator.AnnualTarget}}</h4>
+                      </div>
+                      
+                    </div>
+
+                    <div flex="35" class="md-list-item-text" layout="column" >
+                      
+                      <div layout="row">
+                          <h4 flex="30"><strong>Agency Commitment: </strong></h4>
+                          <h4 flex="70">{{ indicator.agency_commitment}}</h4>
+                      </div>
+                       <div layout="row">
+                          <h4 flex="30"><strong>Division: </strong></h4>
+                          <h4 flex="70">{{ indicator.division}}</h4>
+                      </div>
+                     
+                    </div>
+
+
+
+                    
+                    <-- <md-button class="md-secondary">
+                        Secondary Button
+                      </md-button> -->
+              
+
+          <!-- <md-divider ></md-divider>  
+        </md-list-item>
+
+      </md-list>  -->
+
+      <div>
+        <div  id="tableToExport">
+      <table>
+        <thead>
+            <tr>
+              <th>P/A/P:</th>
+              <th>Main Activity:</th>
+              <th>Sub Activity</th>
+              <th>title</th>
+              <th>Annual Target</th>
+              <th>Agency Commitment</th>
+              <th>Division</th>
+            </tr>
+        </thead>
+
+        <tbody>
+          <tr flex ng-repeat="indicator in indicator_data|filter:search | filter:{division : selected.division}"  
+                  ng-click = "edit_indicator_show_Dialog($event,indicator)">
+            <td>{{ indicator.MFONo}}</td>
+            <td>{{ indicator.Main_Activity}}</td>
+            <td>{{ indicator.Sub_Activity}}</td>
+            <td>{{ indicator.Title}}</td>
+            <td>{{ indicator.AnnualTarget}}</td>
+            <td>{{ indicator.agency_commitment}}</td>
+            <td>{{ indicator.division}}</td>
+            <!-- <td>{{ indicator.budget}}</td> -->
+          </tr>
+        </tbody>
+      </table>
+
+
+  
+        </div>
+      </div>
+
+
+
+          </div>
+  </md-tab>
+
+      <md-tab label = "Users" ng-click="get_Users()" >
+
+        <div ng-include="'pages/user_management/views/main.html'"></div>
+
+      </md-tab>
+
+  </md-tabs>
+	
+
+
+
+
+<div ng-include="'./pages/input_Activities/modals/input_sub_activity_dialog.html'"></div>
+<div ng-include="'./pages/input_Activities/modals/input_indicator_dialog.html'"></div>
+<div ng-include="'./pages/input_Activities/modals/edit_indicator_dialog.html'"></div>
+
+<div ng-include="'./pages/input_Activities/modals/edit_Main_activity.html'"></div>
+<div ng-include="'./pages/input_Activities/modals/Sub_Activity_List_edit.html'"></div>
+<div ng-include="'./pages/input_Activities/modals/edit_Sub_activity.html'"></div>
+
+
+	
+
+</md-card>
+
+
+
+</body>
+
+</html>

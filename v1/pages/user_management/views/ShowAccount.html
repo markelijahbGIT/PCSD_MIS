@@ -1,0 +1,60 @@
+
+  
+      <div ng-init= "get_Users()" layout-padding layout = "row" layout-align = "end end">
+          
+          
+        <!-- <div flex="100"  layout = "column" > -->
+         
+
+            <div class="input-group-prepend"  ng-click = "get_Users()">
+              <span class="input-group-text" id="basic-addon1" >
+                <md-icon ng-bind="'cached'"style="color:green"></md-icon></span>
+            </div>
+
+            &nbsp
+            <div class="input-group-prepend"  ng-click = "AddAccount($event);">
+              <span class="input-group-text" id="basic-addon1" >
+                <md-icon ng-bind="'add_circle'"style="color:green"></md-icon></span>
+            </div>
+
+            &nbsp 
+            <div class="input-group-prepend">
+                <input type="text" class="form-control" ng-model ="SearchData" placeholder="Search" aria-describedby="basic-addon1">
+            </div>
+
+          <!-- </div> -->
+        <!-- </div> -->
+
+      </div>
+          <table class="table table-hover" >
+            <thead>
+              <tr class="table-header">
+                <th width="500px">Name</th>
+                <th width="500px">Division</th>
+                <th width="500px">Email</th>  
+                <th width="500px">User Level</th>  
+                <th width="500px">User Role</th>
+                <th width="500px">Status</th>  
+              </tr>
+            </thead>
+            <tbody  style="color:black;">
+                <tr ng-repeat ="data in user_list | filter: SearchData" >
+                    <td>{{data.lastname}} , {{data.firstname}} </td>
+                    <td>{{data.division}}</td>
+                    <td>{{data.email}}</td>
+                    <td>{{data.level}}</td>
+                    <td><p ng-repeat="role in data.IS_Role">{{role.IS}} as {{role.Role}}</p> </td>
+                    <td>
+                      <md-switch ng-model="data.status" ng-change ="StatusChange(data.id,data.status)" ng-true-value="'Activate'" ng-false-value="'Deactivate'" class="md-warn">
+                         {{ data.status }}
+                      </md-switch>
+                    </td>
+
+                    <td ng-click="changePasswordData('new pass')">change pass</td>
+                     
+                    
+                </tr>
+            </tbody>
+            
+          </table>
+       

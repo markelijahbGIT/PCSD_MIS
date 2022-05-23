@@ -1,0 +1,1772 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>JAO</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--><style type="text/css"> .print-hide{display: none;} </style></head><body><table>
+            
+        <label><h4>JOURNAL ANALYSIS OF OBLIGATION </h4></label> <br>
+        <label><b>FOR  THE MONTH OF </b> </label> 01 2020
+
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+    
+        <table class="table">
+                <tbody><tr>    
+                        <th></th> 
+                        <th></th> 
+                        <th></th> 
+                        <th></th>
+                        <th></th> 
+                        <th></th> 
+                        <th></th> 
+                        <th colspan="19" align="left" bgcolor="#3A7CFF">Personal Services </th> 
+                        <th></th>
+                        <th colspan="35" align="left" bgcolor="#71F279">MOOE </th> 
+                        <th></th>
+                        <th colspan="4" align="left" bgcolor="#939590">CO </th> 
+                        <th></th>
+                        <th></th>
+                        <th colspan="35" align="left" bgcolor="#FDFB65">General Management and Supervision </th> 
+                        <th colspan="35" align="left" bgcolor="##F5B7B1">Advocacy, Communication and Education </th> 
+                        <th colspan="35" align="left" bgcolor="#3A7CFF">ECAN Monitoring and Evaluation System </th> 
+                        <th colspan="35" align="left" bgcolor="#A569BD">ECAN Zoning </th> 
+                        <th colspan="35" align="left" bgcolor="#27AE60">Knowledge and Research Management </th> 
+                        <th colspan="35" align="left" bgcolor="#BFC9CA">Resource Mobilization and Partnership Development </th>
+                        <th colspan="35" align="left" bgcolor="#F7DC6F">Operation of Strategic Environmental Plan and Clearance </th> 
+                        <th colspan="35" align="left" bgcolor="#CD6155">Wildlife and Cave Management</th> 
+                        <th></th>
+                        <th></th>
+
+                        <th colspan="4" align="left" bgcolor="#FDFB65">General Management and Supervision </th> 
+                        <th colspan="4" align="left" bgcolor="#939590">Advocacy, Communication and Education </th> 
+                        <th colspan="4" align="left" bgcolor="#939590">ECAN Monitoring and Evaluation System </th> 
+                        <th colspan="4" align="left" bgcolor="#939590">ECAN Zoning </th> 
+                        <th colspan="4" align="left" bgcolor="#939590">Knowledge and Research Management </th> 
+                        <th colspan="4" align="left" bgcolor="#939590">Resource Mobilization and Partnership Development </th>
+                        <th colspan="4" align="left" bgcolor="#939590">Operation of Strategic Environmental Plan and Clearance </th> 
+                        <th colspan="4" align="left" bgcolor="#939590">Wildlife and Cave Management</th> 
+                
+                </tr>
+                <tr>    
+                    
+                        <th></th> 
+                        <th></th> 
+                        <th></th> 
+                        <th>Check/ADA Number</th> 
+                        <th></th> 
+                        <th></th> 
+                        <th>Total Obligation </th> 
+                        <th bgcolor="#3A7CFF" height="100" width="70%" valign="bottom">Total Personal Services </th> 
+                        <th bgcolor="#3A7CFF" valign="bottom">Basic Salary - Civilian</th>
+                        <th bgcolor="#3A7CFF" valign="bottom">PERA</th>
+                        <th bgcolor="#3A7CFF" valign="bottom">Representation Allowance (RA)</th>
+                        <th bgcolor="#3A7CFF" valign="bottom">Transportation Allowance (TA)</th>
+                        <th bgcolor="#3A7CFF" valign="bottom">Clothing/Uniform Allowance - Civilian</th>
+                        <th bgcolor="#3A7CFF" valign="bottom">Bonus - Civilian</th>
+                        <th bgcolor="#3A7CFF" valign="bottom">Cash Gift -Civilian</th>
+                        <th bgcolor="#3A7CFF" valign="bottom">Productivity Enhancement Incentive - Civilian</th>
+                        <th bgcolor="#3A7CFF" valign="bottom">Mid-Year Bonus - Civilian</th>
+                        <th bgcolor="#3A7CFF" valign="bottom">Retirement &amp; Life Insurance Premiums</th>
+                        <th bgcolor="#3A7CFF" valign="bottom">Pag-IBIG - Civilian</th>
+                        <th bgcolor="#3A7CFF" valign="bottom">Philhealth - Civilian</th>
+                        <th bgcolor="#3A7CFF" valign="bottom">ECIP - Civilian</th>
+                        <th bgcolor="#3A7CFF" valign="bottom">Lump-sum forStep Increment - Length of Service</th>
+                        <th bgcolor="#3A7CFF" valign="bottom">Monetization</th>
+                        <th bgcolor="#3A7CFF" valign="bottom">PBB</th>
+                        <th bgcolor="#3A7CFF" valign="bottom">C N A</th>
+                        <th bgcolor="#3A7CFF" valign="bottom">Termina Leave Benefits</th>
+                        <th></th>
+                        
+                        <th bgcolor="#71F279">Total MOOE </th> 
+                        <th bgcolor="#71F279">Travelling Expenses - Local</th>
+                        <th bgcolor="#71F279">ICT Training Expenses</th>
+                        <th bgcolor="#71F279">Training Expenses</th>
+                        <th bgcolor="#71F279">ICT Office Supplies</th>
+                        <th bgcolor="#71F279">Office Supplies Expenses</th>
+                        <th bgcolor="#71F279">Accountable Forms Expenses</th>
+                        <th bgcolor="#71F279">Fuel Oil and Lubricants Expenses</th>
+                        <th bgcolor="#71F279">Other Supplies and Materials Expenses</th>
+                        <th bgcolor="#71F279">Water Expense</th>
+                        <th bgcolor="#71F279">Electricity Expense</th>
+                        <th bgcolor="#71F279">Postage and Courier Services</th>
+                        <th bgcolor="#71F279">Mobile</th>
+                        <th bgcolor="#71F279">Landline</th>
+                        <th bgcolor="#71F279">Internet Subscription Expenses</th>
+                        <th bgcolor="#71F279">Cable, Satellite, Telegraph and Radio Expenses</th>
+                        <th bgcolor="#71F279">Other Professional Services</th>
+                        <th bgcolor="#71F279">Janitorial Services</th>
+                        <th bgcolor="#71F279">Security Services</th>
+                        <th bgcolor="#71F279">Other General Services - ICT Services</th>
+                        <th bgcolor="#71F279">Building</th>
+                        <th bgcolor="#71F279">Office Equipment</th>
+                        <th bgcolor="#71F279">Motor Vehicles</th>
+                        <th bgcolor="#71F279">Repair and Maintenance - Furnitures and Fixtures</th>
+                        <th bgcolor="#71F279">Taxes, Duties and Licenses</th>
+                        <th bgcolor="#71F279">Fidelity Bond Premiums</th>
+                        <th bgcolor="#71F279">Insurance Expense</th>
+                        <th bgcolor="#71F279">Advertising Expenses</th>
+                        <th bgcolor="#71F279">Printing and Publication Expenses</th>
+                        <th bgcolor="#71F279">Representation Expenses</th>
+                        <th bgcolor="#71F279">Transportation and Delivery Expenses</th>
+                        <th bgcolor="#71F279">Rents - Building and Structures</th>
+                        <th bgcolor="#71F279">Rents - Living Quarter</th>
+                        <th bgcolor="#71F279">Library and Other Reading Materials Subscription</th>
+                        <th bgcolor="#71F279">Other Maintenance and Other Operating Expeses</th>
+                        <th></th>
+
+                        <th bgcolor="#939590">Total CO</th>
+                        <th bgcolor="#939590">Buliding</th>
+                        <th bgcolor="#939590">Information and Communication Technology Equipment</th>
+                        <th bgcolor="#939590">Motor Vehicles</th>
+                        <th></th>
+
+                        <th>MOOE</th>
+                        <th bgcolor="#FFFFFF">Total GASS </th> 
+                        <th bgcolor="#FFFFFF">Travelling Expenses - Local</th>
+                        <th bgcolor="#FFFFFF">ICT Training Expenses</th>
+                        <th bgcolor="#FFFFFF">Training Expenses</th>
+                        <th bgcolor="#FFFFFF">ICT Office Supplies</th>
+                        <th bgcolor="#FFFFFF">Office Supplies Expenses</th>
+                        <th bgcolor="#FFFFFF">Accountable Forms Expenses</th>
+                        <th bgcolor="#FFFFFF">Fuel Oil and Lubricants Expenses</th>
+                        <th bgcolor="#FFFFFF">Other Supplies and Materials Expenses</th>
+                        <th bgcolor="#FFFFFF">Water Expense</th>
+                        <th bgcolor="#FFFFFF">Electricity Expense</th>
+                        <th bgcolor="#FFFFFF">Postage and Courier Services</th>
+                        <th bgcolor="#FFFFFF">Mobile</th>
+                        <th bgcolor="#FFFFFF">Landline</th>
+                        <th bgcolor="#FFFFFF">Internet Subscription Expenses</th>
+                        <th bgcolor="#FFFFFF">Cable, Satellite, Telegraph and Radio Expenses</th>
+                        <th bgcolor="#FFFFFF">Other Professional Services</th>
+                        <th bgcolor="#FFFFFF">Janitorial Services</th>
+                        <th bgcolor="#FFFFFF">Security Services</th>
+                        <th bgcolor="#FFFFFF">Other General Services - ICT Services</th>
+                        <th bgcolor="#FFFFFF">Building</th>
+                        <th bgcolor="#FFFFFF">Office Equipment</th>
+                        <th bgcolor="#FFFFFF">Motor Vehicles</th>
+                        <th bgcolor="#FFFFFF">Repair and Maintenance - Furnitures and Fixtures</th>
+                        <th bgcolor="#FFFFFF">Taxes, Duties and Licenses</th>
+                        <th bgcolor="#FFFFFF">Fidelity Bond Premiums</th>
+                        <th bgcolor="#FFFFFF">Insurance Expense</th>
+                        <th bgcolor="#FFFFFF">Advertising Expenses</th>
+                        <th bgcolor="#FFFFFF">Printing and Publication Expenses</th>
+                        <th bgcolor="#FFFFFF">Representation Expenses</th>
+                        <th bgcolor="#FFFFFF">Transportation and Delivery Expenses</th>
+                        <th bgcolor="#FFFFFF">Rents - Building and Structures</th>
+                        <th bgcolor="#FFFFFF">Rents - Living Quarter</th>
+                        <th bgcolor="#FFFFFF">Library and Other Reading Materials Subscription</th>
+                        <th bgcolor="#FFFFFF">Other Maintenance and Other Operating Expeses</th>
+
+                        <th bgcolor="#FFFFFF">Total ACE </th> 
+                        <th bgcolor="#FFFFFF">Travelling Expenses - Local</th>
+                        <th bgcolor="#FFFFFF">ICT Training Expenses</th>
+                        <th bgcolor="#FFFFFF">Training Expenses</th>
+                        <th bgcolor="#FFFFFF">ICT Office Supplies</th>
+                        <th bgcolor="#FFFFFF">Office Supplies Expenses</th>
+                        <th bgcolor="#FFFFFF">Accountable Forms Expenses</th>
+                        <th bgcolor="#FFFFFF">Fuel Oil and Lubricants Expenses</th>
+                        <th bgcolor="#FFFFFF">Other Supplies and Materials Expenses</th>
+                        <th bgcolor="#FFFFFF">Water Expense</th>
+                        <th bgcolor="#FFFFFF">Electricity Expense</th>
+                        <th bgcolor="#FFFFFF">Postage and Courier Services</th>
+                        <th bgcolor="#FFFFFF">Mobile</th>
+                        <th bgcolor="#FFFFFF">Landline</th>
+                        <th bgcolor="#FFFFFF">Internet Subscription Expenses</th>
+                        <th bgcolor="#FFFFFF">Cable, Satellite, Telegraph and Radio Expenses</th>
+                        <th bgcolor="#FFFFFF">Other Professional Services</th>
+                        <th bgcolor="#FFFFFF">Janitorial Services</th>
+                        <th bgcolor="#FFFFFF">Security Services</th>
+                        <th bgcolor="#FFFFFF">Other General Services - ICT Services</th>
+                        <th bgcolor="#FFFFFF">Building</th>
+                        <th bgcolor="#FFFFFF">Office Equipment</th>
+                        <th bgcolor="#FFFFFF">Motor Vehicles</th>
+                        <th bgcolor="#FFFFFF">Repair and Maintenance - Furnitures and Fixtures</th>
+                        <th bgcolor="#FFFFFF">Taxes, Duties and Licenses</th>
+                        <th bgcolor="#FFFFFF">Fidelity Bond Premiums</th>
+                        <th bgcolor="#FFFFFF">Insurance Expense</th>
+                        <th bgcolor="#FFFFFF">Advertising Expenses</th>
+                        <th bgcolor="#FFFFFF">Printing and Publication Expenses</th>
+                        <th bgcolor="#FFFFFF">Representation Expenses</th>
+                        <th bgcolor="#FFFFFF">Transportation and Delivery Expenses</th>
+                        <th bgcolor="#FFFFFF">Rents - Building and Structures</th>
+                        <th bgcolor="#FFFFFF">Rents - Living Quarter</th>
+                        <th bgcolor="#FFFFFF">Library and Other Reading Materials Subscription</th>
+                        <th bgcolor="#FFFFFF">Other Maintenance and Other Operating Expeses</th>
+
+                        <th bgcolor="#FFFFFF">Total EMES </th> 
+                        <th bgcolor="#FFFFFF">Travelling Expenses - Local</th>
+                        <th bgcolor="#FFFFFF">ICT Training Expenses</th>
+                        <th bgcolor="#FFFFFF">Training Expenses</th>
+                        <th bgcolor="#FFFFFF">ICT Office Supplies</th>
+                        <th bgcolor="#FFFFFF">Office Supplies Expenses</th>
+                        <th bgcolor="#FFFFFF">Accountable Forms Expenses</th>
+                        <th bgcolor="#FFFFFF">Fuel Oil and Lubricants Expenses</th>
+                        <th bgcolor="#FFFFFF">Other Supplies and Materials Expenses</th>
+                        <th bgcolor="#FFFFFF">Water Expense</th>
+                        <th bgcolor="#FFFFFF">Electricity Expense</th>
+                        <th bgcolor="#FFFFFF">Postage and Courier Services</th>
+                        <th bgcolor="#FFFFFF">Mobile</th>
+                        <th bgcolor="#FFFFFF">Landline</th>
+                        <th bgcolor="#FFFFFF">Internet Subscription Expenses</th>
+                        <th bgcolor="#FFFFFF">Cable, Satellite, Telegraph and Radio Expenses</th>
+                        <th bgcolor="#FFFFFF">Other Professional Services</th>
+                        <th bgcolor="#FFFFFF">Janitorial Services</th>
+                        <th bgcolor="#FFFFFF">Security Services</th>
+                        <th bgcolor="#FFFFFF">Other General Services - ICT Services</th>
+                        <th bgcolor="#FFFFFF">Building</th>
+                        <th bgcolor="#FFFFFF">Office Equipment</th>
+                        <th bgcolor="#FFFFFF">Motor Vehicles</th>
+                        <th bgcolor="#FFFFFF">Repair and Maintenance - Furnitures and Fixtures</th>
+                        <th bgcolor="#FFFFFF">Taxes, Duties and Licenses</th>
+                        <th bgcolor="#FFFFFF">Fidelity Bond Premiums</th>
+                        <th bgcolor="#FFFFFF">Insurance Expense</th>
+                        <th bgcolor="#FFFFFF">Advertising Expenses</th>
+                        <th bgcolor="#FFFFFF">Printing and Publication Expenses</th>
+                        <th bgcolor="#FFFFFF">Representation Expenses</th>
+                        <th bgcolor="#FFFFFF">Transportation and Delivery Expenses</th>
+                        <th bgcolor="#FFFFFF">Rents - Building and Structures</th>
+                        <th bgcolor="#FFFFFF">Rents - Living Quarter</th>
+                        <th bgcolor="#FFFFFF">Library and Other Reading Materials Subscription</th>
+                        <th bgcolor="#FFFFFF">Other Maintenance and Other Operating Expeses</th>
+
+                        <th bgcolor="#FFFFFF">Total ECAN Zoning </th> 
+                        <th bgcolor="#FFFFFF">Travelling Expenses - Local</th>
+                        <th bgcolor="#FFFFFF">ICT Training Expenses</th>
+                        <th bgcolor="#FFFFFF">Training Expenses</th>
+                        <th bgcolor="#FFFFFF">ICT Office Supplies</th>
+                        <th bgcolor="#FFFFFF">Office Supplies Expenses</th>
+                        <th bgcolor="#FFFFFF">Accountable Forms Expenses</th>
+                        <th bgcolor="#FFFFFF">Fuel Oil and Lubricants Expenses</th>
+                        <th bgcolor="#FFFFFF">Other Supplies and Materials Expenses</th>
+                        <th bgcolor="#FFFFFF">Water Expense</th>
+                        <th bgcolor="#FFFFFF">Electricity Expense</th>
+                        <th bgcolor="#FFFFFF">Postage and Courier Services</th>
+                        <th bgcolor="#FFFFFF">Mobile</th>
+                        <th bgcolor="#FFFFFF">Landline</th>
+                        <th bgcolor="#FFFFFF">Internet Subscription Expenses</th>
+                        <th bgcolor="#FFFFFF">Cable, Satellite, Telegraph and Radio Expenses</th>
+                        <th bgcolor="#FFFFFF">Other Professional Services</th>
+                        <th bgcolor="#FFFFFF">Janitorial Services</th>
+                        <th bgcolor="#FFFFFF">Security Services</th>
+                        <th bgcolor="#FFFFFF">Other General Services - ICT Services</th>
+                        <th bgcolor="#FFFFFF">Building</th>
+                        <th bgcolor="#FFFFFF">Office Equipment</th>
+                        <th bgcolor="#FFFFFF">Motor Vehicles</th>
+                        <th bgcolor="#FFFFFF">Repair and Maintenance - Furnitures and Fixtures</th>
+                        <th bgcolor="#FFFFFF">Taxes, Duties and Licenses</th>
+                        <th bgcolor="#FFFFFF">Fidelity Bond Premiums</th>
+                        <th bgcolor="#FFFFFF">Insurance Expense</th>
+                        <th bgcolor="#FFFFFF">Advertising Expenses</th>
+                        <th bgcolor="#FFFFFF">Printing and Publication Expenses</th>
+                        <th bgcolor="#FFFFFF">Representation Expenses</th>
+                        <th bgcolor="#FFFFFF">Transportation and Delivery Expenses</th>
+                        <th bgcolor="#FFFFFF">Rents - Building and Structures</th>
+                        <th bgcolor="#FFFFFF">Rents - Living Quarter</th>
+                        <th bgcolor="#FFFFFF">Library and Other Reading Materials Subscription</th>
+                        <th bgcolor="#FFFFFF">Other Maintenance and Other Operating Expeses</th>
+
+                        <th bgcolor="#FFFFFF">Total KRM </th> 
+                        <th bgcolor="#FFFFFF">Travelling Expenses - Local</th>
+                        <th bgcolor="#FFFFFF">ICT Training Expenses</th>
+                        <th bgcolor="#FFFFFF">Training Expenses</th>
+                        <th bgcolor="#FFFFFF">ICT Office Supplies</th>
+                        <th bgcolor="#FFFFFF">Office Supplies Expenses</th>
+                        <th bgcolor="#FFFFFF">Accountable Forms Expenses</th>
+                        <th bgcolor="#FFFFFF">Fuel Oil and Lubricants Expenses</th>
+                        <th bgcolor="#FFFFFF">Other Supplies and Materials Expenses</th>
+                        <th bgcolor="#FFFFFF">Water Expense</th>
+                        <th bgcolor="#FFFFFF">Electricity Expense</th>
+                        <th bgcolor="#FFFFFF">Postage and Courier Services</th>
+                        <th bgcolor="#FFFFFF">Mobile</th>
+                        <th bgcolor="#FFFFFF">Landline</th>
+                        <th bgcolor="#FFFFFF">Internet Subscription Expenses</th>
+                        <th bgcolor="#FFFFFF">Cable, Satellite, Telegraph and Radio Expenses</th>
+                        <th bgcolor="#FFFFFF">Other Professional Services</th>
+                        <th bgcolor="#FFFFFF">Janitorial Services</th>
+                        <th bgcolor="#FFFFFF">Security Services</th>
+                        <th bgcolor="#FFFFFF">Other General Services - ICT Services</th>
+                        <th bgcolor="#FFFFFF">Building</th>
+                        <th bgcolor="#FFFFFF">Office Equipment</th>
+                        <th bgcolor="#FFFFFF">Motor Vehicles</th>
+                        <th bgcolor="#FFFFFF">Repair and Maintenance - Furnitures and Fixtures</th>
+                        <th bgcolor="#FFFFFF">Taxes, Duties and Licenses</th>
+                        <th bgcolor="#FFFFFF">Fidelity Bond Premiums</th>
+                        <th bgcolor="#FFFFFF">Insurance Expense</th>
+                        <th bgcolor="#FFFFFF">Advertising Expenses</th>
+                        <th bgcolor="#FFFFFF">Printing and Publication Expenses</th>
+                        <th bgcolor="#FFFFFF">Representation Expenses</th>
+                        <th bgcolor="#FFFFFF">Transportation and Delivery Expenses</th>
+                        <th bgcolor="#FFFFFF">Rents - Building and Structures</th>
+                        <th bgcolor="#FFFFFF">Rents - Living Quarter</th>
+                        <th bgcolor="#FFFFFF">Library and Other Reading Materials Subscription</th>
+                        <th bgcolor="#FFFFFF">Other Maintenance and Other Operating Expeses</th>
+
+                        <th bgcolor="#FFFFFF">Total RMPD </th> 
+                        <th bgcolor="#FFFFFF">Travelling Expenses - Local</th>
+                        <th bgcolor="#FFFFFF">ICT Training Expenses</th>
+                        <th bgcolor="#FFFFFF">Training Expenses</th>
+                        <th bgcolor="#FFFFFF">ICT Office Supplies</th>
+                        <th bgcolor="#FFFFFF">Office Supplies Expenses</th>
+                        <th bgcolor="#FFFFFF">Accountable Forms Expenses</th>
+                        <th bgcolor="#FFFFFF">Fuel Oil and Lubricants Expenses</th>
+                        <th bgcolor="#FFFFFF">Other Supplies and Materials Expenses</th>
+                        <th bgcolor="#FFFFFF">Water Expense</th>
+                        <th bgcolor="#FFFFFF">Electricity Expense</th>
+                        <th bgcolor="#FFFFFF">Postage and Courier Services</th>
+                        <th bgcolor="#FFFFFF">Mobile</th>
+                        <th bgcolor="#FFFFFF">Landline</th>
+                        <th bgcolor="#FFFFFF">Internet Subscription Expenses</th>
+                        <th bgcolor="#FFFFFF">Cable, Satellite, Telegraph and Radio Expenses</th>
+                        <th bgcolor="#FFFFFF">Other Professional Services</th>
+                        <th bgcolor="#FFFFFF">Janitorial Services</th>
+                        <th bgcolor="#FFFFFF">Security Services</th>
+                        <th bgcolor="#FFFFFF">Other General Services - ICT Services</th>
+                        <th bgcolor="#FFFFFF">Building</th>
+                        <th bgcolor="#FFFFFF">Office Equipment</th>
+                        <th bgcolor="#FFFFFF">Motor Vehicles</th>
+                        <th bgcolor="#FFFFFF">Repair and Maintenance - Furnitures and Fixtures</th>
+                        <th bgcolor="#FFFFFF">Taxes, Duties and Licenses</th>
+                        <th bgcolor="#FFFFFF">Fidelity Bond Premiums</th>
+                        <th bgcolor="#FFFFFF">Insurance Expense</th>
+                        <th bgcolor="#FFFFFF">Advertising Expenses</th>
+                        <th bgcolor="#FFFFFF">Printing and Publication Expenses</th>
+                        <th bgcolor="#FFFFFF">Representation Expenses</th>
+                        <th bgcolor="#FFFFFF">Transportation and Delivery Expenses</th>
+                        <th bgcolor="#FFFFFF">Rents - Building and Structures</th>
+                        <th bgcolor="#FFFFFF">Rents - Living Quarter</th>
+                        <th bgcolor="#FFFFFF">Library and Other Reading Materials Subscription</th>
+                        <th bgcolor="#FFFFFF">Other Maintenance and Other Operating Expeses</th>
+
+                        <th bgcolor="#FFFFFF">Total OSEPCS </th> 
+                        <th bgcolor="#FFFFFF">Travelling Expenses - Local</th>
+                        <th bgcolor="#FFFFFF">ICT Training Expenses</th>
+                        <th bgcolor="#FFFFFF">Training Expenses</th>
+                        <th bgcolor="#FFFFFF">ICT Office Supplies</th>
+                        <th bgcolor="#FFFFFF">Office Supplies Expenses</th>
+                        <th bgcolor="#FFFFFF">Accountable Forms Expenses</th>
+                        <th bgcolor="#FFFFFF">Fuel Oil and Lubricants Expenses</th>
+                        <th bgcolor="#FFFFFF">Other Supplies and Materials Expenses</th>
+                        <th bgcolor="#FFFFFF">Water Expense</th>
+                        <th bgcolor="#FFFFFF">Electricity Expense</th>
+                        <th bgcolor="#FFFFFF">Postage and Courier Services</th>
+                        <th bgcolor="#FFFFFF">Mobile</th>
+                        <th bgcolor="#FFFFFF">Landline</th>
+                        <th bgcolor="#FFFFFF">Internet Subscription Expenses</th>
+                        <th bgcolor="#FFFFFF">Cable, Satellite, Telegraph and Radio Expenses</th>
+                        <th bgcolor="#FFFFFF">Other Professional Services</th>
+                        <th bgcolor="#FFFFFF">Janitorial Services</th>
+                        <th bgcolor="#FFFFFF">Security Services</th>
+                        <th bgcolor="#FFFFFF">Other General Services - ICT Services</th>
+                        <th bgcolor="#FFFFFF">Building</th>
+                        <th bgcolor="#FFFFFF">Office Equipment</th>
+                        <th bgcolor="#FFFFFF">Motor Vehicles</th>
+                        <th bgcolor="#FFFFFF">Repair and Maintenance - Furnitures and Fixtures</th>
+                        <th bgcolor="#FFFFFF">Taxes, Duties and Licenses</th>
+                        <th bgcolor="#FFFFFF">Fidelity Bond Premiums</th>
+                        <th bgcolor="#FFFFFF">Insurance Expense</th>
+                        <th bgcolor="#FFFFFF">Advertising Expenses</th>
+                        <th bgcolor="#FFFFFF">Printing and Publication Expenses</th>
+                        <th bgcolor="#FFFFFF">Representation Expenses</th>
+                        <th bgcolor="#FFFFFF">Transportation and Delivery Expenses</th>
+                        <th bgcolor="#FFFFFF">Rents - Building and Structures</th>
+                        <th bgcolor="#FFFFFF">Rents - Living Quarter</th>
+                        <th bgcolor="#FFFFFF">Library and Other Reading Materials Subscription</th>
+                        <th bgcolor="#FFFFFF">Other Maintenance and Other Operating Expeses</th>
+
+                        <th bgcolor="#FFFFFF">Total WCM </th> 
+                        <th bgcolor="#FFFFFF">Travelling Expenses - Local</th>
+                        <th bgcolor="#FFFFFF">ICT Training Expenses</th>
+                        <th bgcolor="#FFFFFF">Training Expenses</th>
+                        <th bgcolor="#FFFFFF">ICT Office Supplies</th>
+                        <th bgcolor="#FFFFFF">Office Supplies Expenses</th>
+                        <th bgcolor="#FFFFFF">Accountable Forms Expenses</th>
+                        <th bgcolor="#FFFFFF">Fuel Oil and Lubricants Expenses</th>
+                        <th bgcolor="#FFFFFF">Other Supplies and Materials Expenses</th>
+                        <th bgcolor="#FFFFFF">Water Expense</th>
+                        <th bgcolor="#FFFFFF">Electricity Expense</th>
+                        <th bgcolor="#FFFFFF">Postage and Courier Services</th>
+                        <th bgcolor="#FFFFFF">Mobile</th>
+                        <th bgcolor="#FFFFFF">Landline</th>
+                        <th bgcolor="#FFFFFF">Internet Subscription Expenses</th>
+                        <th bgcolor="#FFFFFF">Cable, Satellite, Telegraph and Radio Expenses</th>
+                        <th bgcolor="#FFFFFF">Other Professional Services</th>
+                        <th bgcolor="#FFFFFF">Janitorial Services</th>
+                        <th bgcolor="#FFFFFF">Security Services</th>
+                        <th bgcolor="#FFFFFF">Other General Services - ICT Services</th>
+                        <th bgcolor="#FFFFFF">Building</th>
+                        <th bgcolor="#FFFFFF">Office Equipment</th>
+                        <th bgcolor="#FFFFFF">Motor Vehicles</th>
+                        <th bgcolor="#FFFFFF">Repair and Maintenance - Furnitures and Fixtures</th>
+                        <th bgcolor="#FFFFFF">Taxes, Duties and Licenses</th>
+                        <th bgcolor="#FFFFFF">Fidelity Bond Premiums</th>
+                        <th bgcolor="#FFFFFF">Insurance Expense</th>
+                        <th bgcolor="#FFFFFF">Advertising Expenses</th>
+                        <th bgcolor="#FFFFFF">Printing and Publication Expenses</th>
+                        <th bgcolor="#FFFFFF">Representation Expenses</th>
+                        <th bgcolor="#FFFFFF">Transportation and Delivery Expenses</th>
+                        <th bgcolor="#FFFFFF">Rents - Building and Structures</th>
+                        <th bgcolor="#FFFFFF">Rents - Living Quarter</th>
+                        <th bgcolor="#FFFFFF">Library and Other Reading Materials Subscription</th>
+                        <th bgcolor="#FFFFFF">Other Maintenance and Other Operating Expeses</th>
+                        <th></th>
+
+                        <th>CA</th>
+                        <th bgcolor="#FFFFFF">Total GASS</th>
+                        <th bgcolor="#FFFFFF">Buliding</th>
+                        <th bgcolor="#FFFFFF">Information and Communication Technology Equipment</th>
+                        <th bgcolor="#FFFFFF">Motor Vehicles</th>
+
+                        <th bgcolor="#FFFFFF">Total ACE</th>
+                        <th bgcolor="#FFFFFF">Buliding</th>
+                        <th bgcolor="#FFFFFF">Information and Communication Technology Equipment</th>
+                        <th bgcolor="#FFFFFF">Motor Vehicles</th>
+
+                        <th bgcolor="#FFFFFF">Total EMES</th>
+                        <th bgcolor="#FFFFFF">Buliding</th>
+                        <th bgcolor="#FFFFFF">Information and Communication Technology Equipment</th>
+                        <th bgcolor="#FFFFFF">Motor Vehicles</th>
+
+                        <th bgcolor="#FFFFFF">Total ECAN Zoning</th>
+                        <th bgcolor="#FFFFFF">Buliding</th>
+                        <th bgcolor="#FFFFFF">Information and Communication Technology Equipment</th>
+                        <th bgcolor="#FFFFFF">Motor Vehicles</th>
+
+                        <th bgcolor="#FFFFFF">Total KRM</th>
+                        <th bgcolor="#FFFFFF">Buliding</th>
+                        <th bgcolor="#FFFFFF">Information and Communication Technology Equipment</th>
+                        <th bgcolor="#FFFFFF">Motor Vehicles</th>
+
+                        <th bgcolor="#FFFFFF">Total RMPD</th>
+                        <th bgcolor="#FFFFFF">Buliding</th>
+                        <th bgcolor="#FFFFFF">Information and Communication Technology Equipment</th>
+                        <th bgcolor="#FFFFFF">Motor Vehicles</th>
+
+                        <th bgcolor="#FFFFFF">Total OSEPCS</th>
+                        <th bgcolor="#FFFFFF">Buliding</th>
+                        <th bgcolor="#FFFFFF">Information and Communication Technology Equipment</th>
+                        <th bgcolor="#FFFFFF">Motor Vehicles</th>
+
+                        <th bgcolor="#FFFFFF">Total WCM</th>
+                        <th bgcolor="#FFFFFF">Buliding</th>
+                        <th bgcolor="#FFFFFF">Information and Communication Technology Equipment</th>
+                        <th bgcolor="#FFFFFF">Motor Vehicles</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Budget for the year</td> <!---.///////////////////////////////////////////////////////////////////// BUDGET OF THE YEAR///////////////////////////////////-->
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="ng-binding">10000000</td> <!----- TOTAL BUDGET-->
+                    <td class="ng-binding">0</td> <!------- TOTAL PS-->
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td></td>
+
+                    <td class="ng-binding">10000000</td>
+                    <td class="ng-binding">10000000</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+
+                    <td></td>
+
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+
+
+                    <td></td>
+
+                    <td class="ng-binding">10000000</td><!----- MOOE TOTAL BUDGET Division-->
+                    <td class="ng-binding">10000000</td> <!------- GENERAL TOTAL-->
+                    <td class="ng-binding">10000000</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+
+                    <td class="ng-binding">0</td> <!------- Advocacy TOTAL-->
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+
+
+                    <td class="ng-binding">0</td> <!------- ECAN Monitoring and Evaluation System TOTAL-->
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+
+
+                    <td class="ng-binding">0</td> <!------- ECAN Zoning TOTAL-->
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+
+
+                    <td class="ng-binding">0</td> <!------- Knowledge and Research Management TOTAL-->
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+
+
+
+                    <td class="ng-binding">0</td> <!------- Resource Mobilization and Partnership Development TOTAL-->
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+
+                    <td class="ng-binding">0</td> <!------- Operation of Strategic Environmental Plan and Clearance TOTAL-->
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+
+                    <td class="ng-binding">0</td> <!------- Wildlife and Cave Management TOTAL-->
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+
+                    <td></td>
+
+                    <td class="ng-binding">0</td><!--- TOTAL CO-->
+                    <td class="ng-binding">0</td> <!---- TOTAL CO GENERAL-->
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+
+                    <td class="ng-binding">0</td> <!---- TOTAL CO Advocacy-->
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+
+                    <td class="ng-binding"></td> <!---- TOTAL CO ECAN Monitoring-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+                    <td class="ng-binding">0</td> <!---- TOTAL CO ECAN Zoning-->
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+
+                    <td class="ng-binding">0</td> <!---- TOTAL CO Knowledge and Research Management-->
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+
+                    <td class="ng-binding">0</td> <!---- TOTAL CO Resource Mobilization and Partnership Development-->
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+                    <td class="ng-binding">0</td>
+
+                    <td class="ng-binding"></td> <!---- TOTAL CO Operation of Strategic Environmental Plan and Clearance-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+                    <td class="ng-binding"></td> <!---- TOTAL CO Wildlife and Cave Management-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+                    
+
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Beginning Balance</td><!---.///////////////////////////////////////////////////////////////////// BUDGET OF THE YEAR///////////////////////////////////-->
+                    <td></td> 
+                    <td></td>
+                    <td></td>
+                    <td class="ng-binding"></td> <!----- TOTAL BUDGET-->
+                    <td class="ng-binding"></td> <!------- TOTAL PS-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td></td>
+
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+                    <td></td>
+
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+                    <td></td>
+
+                    
+                    <td class="ng-binding"></td><!----- MOOE TOTAL BUDGET Division-->
+                    <td class="ng-binding"></td> <!------- GENERAL TOTAL-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+
+                    <td class="ng-binding"></td> <!------- Advocacy TOTAL-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+
+
+                    <td class="ng-binding"></td> <!------- ECAN Monitoring and Evaluation System TOTAL-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+
+
+                    <td class="ng-binding"></td> <!------- ECAN Zoning TOTAL-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+                    <td class="ng-binding"></td> <!------- Knowledge and Research Management TOTAL-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+
+
+
+                    <td class="ng-binding"></td> <!------- Resource Mobilization and Partnership Development TOTAL-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+
+                    <td class="ng-binding"></td> <!------- Operation of Strategic Environmental Plan and Clearance TOTAL-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+
+                    <td class="ng-binding"></td> <!------- Wildlife and Cave Management TOTAL-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+
+                    <td></td>
+
+                    <td class="ng-binding"></td><!--- TOTAL CO-->
+                    <td class="ng-binding"></td> <!---- TOTAL CO GENERAL-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+
+                    <td class="ng-binding"></td> <!---- TOTAL CO Advocacy-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+                    <td class="ng-binding"></td> <!---- TOTAL CO ECAN Monitoring-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+                    <td class="ng-binding"></td> <!---- TOTAL CO ECAN Zoning-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+                    <td class="ng-binding"></td> <!---- TOTAL CO Knowledge and Research Management-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+                    <td class="ng-binding"></td> <!---- TOTAL CO Resource Mobilization and Partnership Development-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+                    <td class="ng-binding"></td> <!---- TOTAL CO Operation of Strategic Environmental Plan and Clearance-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+
+                    <td class="ng-binding"></td> <!---- TOTAL CO Wildlife and Cave Management-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Total</td><!------------------------------------------------------- TOTAL BUDGET-->
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="ng-binding"></td> <!----- TOTAL BUDGET-->
+                    <td class="ng-binding"></td> <!------- TOTAL PS-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td></td>
+
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+                    <td></td>
+
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+                    <td></td>
+
+                    
+                    <td class="ng-binding"></td><!----- MOOE TOTAL BUDGET Division-->
+                    <td class="ng-binding"></td> <!------- GENERAL TOTAL-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+
+                    <td class="ng-binding"></td> <!------- Advocacy TOTAL-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+
+
+                    <td class="ng-binding"></td> <!------- ECAN Monitoring and Evaluation System TOTAL-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+
+
+                    <td class="ng-binding"></td> <!------- ECAN Zoning TOTAL-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+                    <td class="ng-binding"></td> <!------- Knowledge and Research Management TOTAL-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+
+
+
+                    <td class="ng-binding"></td> <!------- Resource Mobilization and Partnership Development TOTAL-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+
+                    <td class="ng-binding"></td> <!------- Operation of Strategic Environmental Plan and Clearance TOTAL-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+
+                    <td class="ng-binding"></td> <!------- Wildlife and Cave Management TOTAL-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+
+                    <td></td>
+
+                    <td class="ng-binding"></td><!--- TOTAL CO-->
+                    <td class="ng-binding"></td> <!---- TOTAL CO GENERAL-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+
+                    <td class="ng-binding"></td> <!---- TOTAL CO Advocacy-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+                    <td class="ng-binding"></td> <!---- TOTAL CO ECAN Monitoring-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+                    <td class="ng-binding"></td> <!---- TOTAL CO ECAN Zoning-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+                    <td class="ng-binding"></td> <!---- TOTAL CO Knowledge and Research Management-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+                    <td class="ng-binding"></td> <!---- TOTAL CO Resource Mobilization and Partnership Development-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+                    <td class="ng-binding"></td> <!---- TOTAL CO Operation of Strategic Environmental Plan and Clearance-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+
+                    <td class="ng-binding"></td> <!---- TOTAL CO Wildlife and Cave Management-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                </tr>
+                <tr></tr>
+                
+        </tbody></table>
+
+        <table class="table">
+                <tbody><tr>
+                <th>Date</th>
+                <th>OBR No.</th>
+                <th>NAME OF CREDITORS</th>
+                <th>LDDAP-ADA NO 101101</th>
+                <th>Oblig. Center</th>
+                </tr>
+                <tr>
+                        <td colspan="2"></td>
+                        <td align="center"> <strong>ADA</strong></td>
+                        <td colspan="380"></td>
+                </tr>
+                <!-- ngRepeat: x in ExpensesExport -->
+
+                <!-------///////////////////////////////////////// CHECk /////////////////////////////////////////////////////////////////////////////////////-->
+                <tr>
+                        <td colspan="2"></td>
+                        <td align="center"> <strong>CHECK</strong></td>
+                        <td colspan="380"></td>
+                </tr>
+                <!-- ngRepeat: x in ExpensesExportC -->
+        </tbody></table>
+    </table></body></html>

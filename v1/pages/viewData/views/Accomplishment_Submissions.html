@@ -1,0 +1,78 @@
+<md-card>
+  <md-card-content>
+    <div align="center" >
+        <h1>Accomplishment Submissions</h1>
+ <!-- {{mis_dashboard}} -->
+
+        <md-input-container flex = "20" style="padding-bottom: 25;">
+         
+          <md-select  ng-model="Selected_Year_acc" ng-init="Selected_Year_acc = Selected_Year" ng-change="">
+
+
+            <md-option ng-value="data.value" ng-repeat="data in AllYears" style="padding-bottom: 25;">
+              {{ data.name }}
+            </md-option>
+          </md-select>
+        </md-input-container >
+    
+        
+
+         <md-input-container ng-show = "mis_dashboard" flex style="padding-left: 20;padding-bottom: 25;">
+          <label align="left" style="padding-left: 20;">Division</label>
+          <md-select  ng-model="selected.division" ng-change="">
+            <md-option ng-value="data.name" ng-repeat="data in Divisions">
+              {{ data.name }}
+            </md-option>
+          </md-select>
+        </md-input-container>
+
+       <!--  <md-input-container flex="20" style="padding-left: 20;">
+          <label align="left" style="padding-left: 20;">Search</label>
+            <input type="text" ng-model="search" >
+         </md-input-container> -->
+
+
+         <div flex layout ="column"   style="color:black;" layout-align="fill" >
+    
+      <div>
+        <div  id="tableToExport">
+      <table>
+        <thead>
+            <tr>
+              <th ng-show = "mis_dashboard">Division</th>
+              <th>Title</th>
+              <th>Quantity</th>
+              <th>Remarks</th>
+              <th>Status</th>
+              <th>Date Completed</th>
+              <th>Date Encoded</th>
+              <th>MIS Officer Remarks</th>
+            </tr>
+        </thead>
+        <!-- {{Selected_Year_acc}} -->
+
+        <tbody>
+          <tr flex ng-repeat="data in Accomplishment_Submission_data  | filter:{division:selected.division} | filter:{dateCompleted : Selected_Year_acc} | filter:SearchData" ng-click= "get_Accomplishment_Submissions_MIS($event,data.idaccomplished)">
+             <!-- | filter:{Division : selected.division} -->
+            <td ng-show = "mis_dashboard">{{data.division}}</td>
+            <td>{{data.Title}}</td>
+            <td>{{data.quantity}}</td>
+            <td>{{data.remarks}}</td>
+            <td>{{data.confirmation_status}}</td>
+            <td>{{data.dateCompleted}}</td>
+            <td>{{data.dateEncoded}}</td>
+            <td>{{data.decline_remarks}}</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+  
+        </div>
+</div>
+
+</div>
+</div>
+
+</md-card-content>
+</md-card>

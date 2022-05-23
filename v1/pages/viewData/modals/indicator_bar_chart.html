@@ -1,0 +1,48 @@
+
+<div  style="visibility: hidden;" style="min-width: 100%; max-height: 100% ;">
+ 
+
+    <div  style="overflow-y: hidden" class="md-dialog-container" id="indicator_bar_chart">
+
+      <md-dialog flex = "60" layout-padding>
+        <!-- {{accomp_indic}} -->
+        <h2>Indicator Target vs Accomplished</h2>
+        <h3>{{Indicator_Title}}</h3>
+        <h4>Target: {{chart_Target}}</h4>
+        <h4>Accomplished: {{chart_Accomplished}}</h4>
+        <div layout="column" ></div> 
+
+<!-- {{new_req_from_ticket}} -->
+ 
+   <md-card layout ="column">
+  <md-card-content  >
+  
+
+
+      <canvas  id="bar" class="chart chart-bar" chart-data="data" chart-labels="labels" chart-series="series">
+        
+      </canvas>
+
+   
+
+    </md-card-content>
+    <md-dialog-actions layout="row">
+      
+   
+      <md-button class="md-warn md-raised" ng-click="hideDialog($event)">
+       Close
+      </md-button>
+     
+    </md-dialog-actions>
+</md-card>
+
+  
+
+        
+      </md-dialog>
+      
+
+
+    </div>
+
+  </div> 

@@ -1,0 +1,55 @@
+
+<div style="visibility: hidden">
+ 
+
+    <div class="md-dialog-container" id="decline_remarks">
+
+
+
+      <md-dialog style="min-width: 50%; height: 50% ;" layout-padding>
+        <!-- {{accomp_indic}} -->
+        <h2>Decline MOV</h2>
+
+        <h3>{{declined_MOV}}</h3>
+
+        <div layout="column" > 
+
+        
+
+<!-- {{new_req_from_ticket}} -->
+ 
+   <md-card>
+  <md-card-content>
+    <div flex="100" layout ="row"   style="color:black;" layout-align="fill">
+      <md-input-container flex = "100">
+          <label align="left">Declination Remarks:</label>
+          <input type="text" ng-model="remarks" style="padding-left: 20;">
+        </md-input-container >
+ 
+      </div>
+
+</md-card-content>
+</md-card>
+
+  
+
+        <md-dialog-actions layout="row">
+
+      <md-button class="md-warn md-raised" ng-click="hideDialog($event,'decline_remarks')">
+       Cancel
+      </md-button>
+
+      <md-button flex = "50" class="md-primary md-raised" ng-click="decline_MOV(declined_MOV,remarks,$event);hideDialog($event,'decline_remarks');">
+                            
+          <strong>Submit</strong>
+      
+      </md-button>
+
+    </md-dialog-actions>
+      </md-dialog>
+      
+
+
+    </div>
+
+  </div> 

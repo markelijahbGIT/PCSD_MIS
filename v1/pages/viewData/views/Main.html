@@ -1,0 +1,434 @@
+<md-card>
+  <md-card-content>
+    <form  name="view_data">
+<div layout="column" flex="100" align="center" ng-init="year_start = Selected_Year; year_end = Selected_Year;get_accomp_Report_yearly(Selected_Year,Selected_Year)">
+
+<!-- year_start = Selected_Year;year_end = Selected_Year; -->
+  <!-- <h2>View Data</h2> -->
+  <h2>Accomplishment per Indicator Data</h2>
+
+	<div align="center">
+
+	
+	<!-- <h3>Please select Period<h3> -->
+	</div>
+
+
+
+
+
+  <div layout="row"  align="center">
+    <!-- <div layout = "row" > -->
+    <div>
+    
+    <md-input-container >
+  
+
+      <md-select ng-model="sel_Period" ng-change="select_data_period(sel_Period)"  align="left" placeholder="Select Period">
+              <md-option ng-value="'year'" selected>Year</md-option>
+              <md-option ng-value="'month'">Month</md-option>
+              <md-option ng-value="'quarter'">Quarterly</md-option>
+      </md-select>
+
+
+    </md-input-container>
+    </div>
+
+    <div ng-show="period_yr">
+      <div flex="100" >
+        <md-input-container flex="50"  flex-gt-sm>
+            <label align="left">Start Year: </label>
+            <md-select  align="left" ng-model="year_start" ng-change="show_TimeValue(data.value);year_end = year_start" >
+              <md-option value="{{data.value}}" ng-repeat="data in AllYears">
+                 <strong>{{data.name}}</strong> 
+              
+              </md-option>
+            </md-select>
+        </md-input-container>
+      
+        <md-input-container flex="50"  flex-gt-sm>
+            <label align="left">End Year: </label>
+            <md-select  align="left" ng-model="year_end" >
+              <md-option value="{{data.value}}" ng-repeat="data in AllYears">
+                 <strong>{{data.name}}</strong> 
+              
+              </md-option>
+            </md-select>
+        </md-input-container>
+      
+        </div>
+
+
+<div >
+      <!--  -->
+          <md-input-container class="md-block" flex-gt-sm>
+          <md-button class="md-primary md-raised" type="submit" ng-disabled="" ng-click="get_accomp_Report_yearly(year_start,year_end);">
+            <md-icon ng-bind="'assignment'" ></md-icon>
+            <strong>Show List</strong>
+            
+          </md-button>
+
+           <md-button class="md-primary md-raised" type="submit" ng-disabled="" ng-click="get_expenses_yearly($event,year_start,year_end);">
+                <md-icon ng-bind="'attach_money'" ></md-icon>
+                <strong>Expenses</strong>
+                
+          </md-button>
+
+          <md-button ng-click="exportToExcel('tableToExport','MIS Report'); " class="md-raised md-primary" >
+            <md-icon ng-bind="'file_download'" ></md-icon>
+                Download
+          </md-button>
+
+
+          </md-input-container>
+
+          
+        
+</div>
+
+
+    </div>
+
+    <div  ng-show="period_quarter">
+
+        <md-input-container flex="50"  flex-gt-sm>
+            <label align="left">Year: </label>
+            <md-select  align="left" ng-model="year_selected" ng-change="show_TimeValue(data.value)" >
+              <md-option value="{{data.value}}" ng-repeat="data in AllYears">
+                 <strong>{{data.name}}</strong> 
+              
+              </md-option>
+            </md-select>
+        </md-input-container>
+      
+        <md-input-container flex="50"  flex-gt-sm>
+            <label align="left">Quarter: </label>
+            <md-select  align="left" ng-model="quarter_selected" >
+              <md-option value="1" >
+                 <strong>Q1</strong> 
+              
+              </md-option>
+              <md-option value="2" >
+                 <strong>Q2</strong> 
+              
+              </md-option>
+              <md-option value="3" >
+                 <strong>Q3</strong> 
+              
+              </md-option>
+              <md-option value="4" >
+                 <strong>Q4</strong> 
+              
+              </md-option>
+            </md-select>
+        </md-input-container>
+      
+
+
+
+
+      <md-card-actions style="position:center" layout="row"   style="color:black;">
+          <md-input-container class="md-block" flex-gt-sm>
+          <md-button class="md-primary md-raised" type="submit" ng-disabled="" ng-click="get_accomp_Report_quarter(year_selected,quarter_selected);">
+            <md-icon ng-bind="'assignment'" ></md-icon>
+            <strong>Show List</strong>
+            
+      </md-button>
+
+          <md-button class="md-primary md-raised" type="submit" ng-disabled="" ng-click="get_expenses_quarter($event,year_selected,quarter_selected);">
+              <md-icon ng-bind="'attach_money'" ></md-icon>
+              <strong>Expenses</strong>
+            
+            </md-button>
+
+          <md-button  ng-click="exportToExcel('tableToExport','MIS Report'); " class="md-raised md-primary" >
+        <md-icon ng-bind="'file_download'" ></md-icon>
+                Download
+             </md-button>
+          </md-input-container>
+        </md-card-actions>
+
+
+    </div>
+
+
+
+
+
+    <div ng-show="period_month">
+   
+    <md-input-container flex = "30">
+          <label align="left">Year</label>
+          <md-select  ng-model="yr">
+            <md-option ng-value="data.value" ng-repeat="data in AllYears">
+              {{ data.name }}
+            </md-option>
+          </md-select>
+        </md-input-container >
+     
+        <md-input-container flex="35" flex-gt-sm>
+            <label align="left">From: </label>
+            <md-select  align="left" ng-model="month_from" ng-change="month_to = month_from">
+              <md-option value="{{month.value}}" ng-repeat="month in AllMonths">
+                 <strong>{{month.name}}</strong> 
+              
+              </md-option>
+            </md-select>
+        </md-input-container>
+     
+
+        <md-input-container flex="35"  flex-gt-sm>
+            <label align="left">To: </label>
+            <md-select  align="left" ng-model="month_to" >
+              <md-option value="{{month.value}}" ng-repeat="month in AllMonths">
+                 <strong>{{month.name}}</strong> 
+              
+              </md-option>
+            </md-select>
+        </md-input-container>
+    
+
+
+      <md-card-actions style="position:center" layout="row"   style="color:black;">
+          <md-input-container class="md-block" flex-gt-sm>
+          <md-button class="md-primary md-raised" type="submit" ng-disabled="view_data.$invalid" ng-click="get_accomp_Report(month_from,month_to,yr);">
+            <md-icon ng-bind="'assignment'" ></md-icon>
+            <strong>Show List</strong></md-button>
+
+            <md-button class="md-primary md-raised" type="submit" ng-disabled="" ng-click="get_expenses_monthly($event,month_from,month_to,yr);">
+              <md-icon ng-bind="'attach_money'" ></md-icon>
+              <strong>Expenses</strong>
+            
+            </md-button>
+
+            <md-button   ng-click="exportToExcel('tableToExport','MIS Report'); " class="md-raised md-primary" >
+        <md-icon ng-bind="'file_download'" ></md-icon>
+                Download
+             </md-button>
+          </md-input-container>
+        </md-card-actions>
+
+      </div>
+       <div align="right">
+          <md-input-container   style="padding-bottom: 25;">
+          <label align="left">Division</label>
+          <md-select  ng-model="indicator.division">
+            <md-option ng-value="''" selected>
+              All
+            </md-option>
+            <md-option ng-value="data.name" ng-repeat="data in Divisions">
+              {{ data.name }}
+            </md-option>
+          </md-select>
+        </md-input-container>
+
+        <md-input-container  style="padding-bottom: 25;">
+          <label align="left">P/A/P:</label>
+          <md-select  ng-model="pap_filter">
+            <md-option ng-value="''" selected>
+              All
+            </md-option>
+            <md-option ng-value="data.value" ng-repeat="data in MFO">
+              {{ data.name }}
+            </md-option>
+          </md-select>
+        </md-input-container>
+
+        <md-input-container style="padding-bottom: 25;">
+          <label align="left">Agency Commitment</label>
+          <md-select  ng-model="filter_Commitment">
+            <md-option ng-value="''" selected>
+              All
+            </md-option>
+            <md-option ng-value="data.value" ng-repeat="data in commitment">
+              {{ data.name }}
+            </md-option>
+          </md-select>
+        </md-input-container>
+
+        <!-- <md-input-container style="padding-left: 20;">
+          <label align="left" style="padding-left: 20;">Search</label>
+            <input type="text" ng-model="search" style="padding-left: 20;">
+          </md-input-container>
+ -->
+
+      <!--   <label style="padding-left: 20;">Agency Commitment</label>
+       <form ng-init="initialize_indicator()" style="padding-left: 20;">
+          <label><input type="checkbox" ng-model="indicator.DBM">a. DBM/GAA</label>
+          <label><input type="checkbox" ng-model="indicator.PBB">b. PBB Requirement</label>
+          <label><input type="checkbox" ng-model="indicator.DENR">c. DENR </label>
+          <label><input type="checkbox" ng-model="indicator.OPCR">d. OPCR</label>
+          <label> <input type="checkbox" ng-model="indicator.DPCR">e. DPCR </label>
+        </form> -->
+
+        <!-- <label style="padding-left: 20;">Agency Commitment</label>
+        <md-radio-group style="padding-left: 20;" ng-model="filterval" >
+                  <md-radio-button ng-value="''"  >ALL</md-radio-button>
+                  <md-radio-button ng-value="'DBM'"  >a. DBM/GAA</md-radio-button>
+                  <md-radio-button ng-value="'PBB'" >b. PBB Requirement</md-radio-button>
+                  <md-radio-button ng-value="'DENR'">c. DENR</md-radio-button>
+                  <md-radio-button ng-value="'OPCR'" >d. OPCR</md-radio-button>
+                  <md-radio-button ng-value="'DPCR'">e. DPCR </md-radio-button>
+            
+      </md-radio-group> -->
+
+
+      
+
+
+    </div>
+
+      <!-- </div> -->
+
+      
+<md-button ng-hide = "true"    ng-click="exportToExcel('tableToExport','MIS Report'); " class="md-raised md-primary" >
+        <md-icon ng-bind="'file_download'" ></md-icon>
+                Download
+             </md-button>
+     
+        
+     
+   
+
+</div>
+  </form>
+</md-card-content>
+</md-card>
+
+<md-card>
+    <md-card-content>
+
+      
+
+ <!--  <md-switch ng-init="switch_val = true" ng-model="switch_val" aria-label="View" align= "right">
+    Table View
+  </md-switch> -->
+      
+<div flex="grow" layout ="row"   style="color:black;" layout-align="center">
+
+ 
+  <md-list ng-show = "switch_val" flex="grow" align="center">
+    
+                       <!--  <md-input-container flex="20" style="padding-left: 20;">  
+                        
+                          <md-button flex="70" class="md-primary md-raised" ng-click="show_indic_accomp_chart($event);">
+                           
+                            <md-icon ng-bind="'bar_chart'" ></md-icon>
+
+                          </md-button>
+                          </md-input-container>
+
+                          <md-input-container flex="20" style="padding-left: 20;">  
+                       
+                          <md-button flex="70" class="md-primary md-raised"  ng-click="show_accomp_chart_monthly($event);">
+                            <md-icon ng-bind="'timeline'" ></md-icon>
+
+                          </md-input-container> -->
+                          
+
+
+
+<md-list-item  flex ng-repeat="data in accomp_Report|filter:search | filter:{division:indicator.division}| filter:{agency_commitment:filter_Commitment}| filter:{pap:pap_filter}" ng-click="view_indicator_accomplishments($event,data.idindicators,data)" class="md-3-line">
+
+          
+
+
+                  <div flex="30" class="md-list-item-text" layout="column">
+                      <div layout="row">
+                          <h4 flex="30"><strong>Indicator: </strong></h4>
+                          <h4 flex="70"><strong>{{data.Indicator}}</strong></h4>
+                      </div>
+
+                      
+                       <div layout="row">
+                          <h4 flex="30"><strong>  Accomplished </strong></h4>
+                          <h4 flex="70">{{data.Accomplished}}</h4>
+                      </div>
+                      <div layout="row">
+                          <h4 flex="30"><strong>Target </strong></h4>
+                          <h4 flex="70">{{data.Target}}</h4>
+                      </div>
+                    </div>
+
+                    <div flex="35" class="md-list-item-text" layout="column">
+                      <div layout="row">
+                          <h4 flex="30"><strong>Agency_Commitment: </strong></h4>
+                          <h4 flex="70"><strong>{{data.agency_commitment}}</strong></h4>
+                      </div>
+                     <!--  <div layout="row">
+                          <h4 flex="50"><strong>AccomWeight </strong></h4>
+                          <h4 flex="50">{{data.AccomWeight}}</h4>
+                      </div>
+
+                      <div layout="row">
+                          <h4 flex="50"><strong>TargetWeight </strong></h4>
+                          <h4 flex="50"> {{data.TargetWeight}} </h4>
+                      </div> -->
+            
+                      <div layout="row">
+                          <h4 flex="30"><strong>Percent Completed</strong></h4>
+                          <h4 flex="70">{{data.Percent}}</h4>
+                      </div>
+
+                      <!-- <div layout="row">
+                          <h4 flex="30"><strong>Slippage: </strong></h4>
+                          <h4 flex="70">{{data.Slippage}}</h4>
+                      </div> -->
+                    </div>
+
+                     <div flex="35" class="md-list-item-text" layout="column">      
+                       
+                       <div layout="row">
+                          <h4 flex="30"><strong>Remarks </strong></h4>
+                          <h4 flex="70">{{data.Remarks}}</h4>
+                      </div>
+                    </div>
+
+                   
+
+                  <md-divider></md-divider>
+          </md-list-item>
+        </md-list>
+      </div>
+
+      <div>
+        <div ng-hide = "switch_val" id="tableToExport">
+        <table  >
+            <thead >
+              <tr>
+              <th>No.</th>
+              <th >Sub Activity</th>
+              <th >Indicator</th>
+              <th >Accomplished</th>
+              <th >Target</th>
+              <th >Agency_Commitment</th>
+              <th >Percent Completed</th>
+              <th >Remarks</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr flex ng-repeat="data in accomp_Report|filter:SearchData | filter:{division:indicator.division}| filter:{agency_commitment:filter_Commitment}| filter:{pap:pap_filter}" ng-click="view_indicator_accomplishments($event,data.idindicators,data)">
+                <td>{{$index + 1}}</td>
+                <td >{{data.Sub}}</td>
+                <td >{{data.Indicator}}</td>
+                <td >{{data.Accomplished}}</td>
+                <td >{{data.Target}}</td>
+                <td >{{data.agency_commitment}}</td>
+                <td >{{data.Percent}}</td>
+                <td >{{data.Remarks}}</td>
+              </tr>
+            </tbody>
+
+
+        </table>
+
+        </div>
+
+      </div>
+
+
+    </md-card-content>
+
+
+</md-card>

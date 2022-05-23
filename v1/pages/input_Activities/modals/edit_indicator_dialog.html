@@ -1,0 +1,340 @@
+<style type="text/css">
+  
+
+
+
+</style>
+<md-card class="autooverflowy">
+<div  style="visibility: hidden" >
+ 
+    <div  class="md-dialog-container" id="edit_indicator_dialog" >
+
+      <md-dialog   style="min-width: 80%; height: 100% ;" layout-padding >
+        <div class="md-toolbar-tools" style="background: #000000; color: #FFFFFF">
+          <h2 ng-model="indicator_edit.idindicators">Edit Indicator {{indicator_edit.idindicators}}</h2>
+        </div>
+        
+        
+
+        <div layout="column" > 
+          <!-- {{indicator}} -->
+          <!-- {{Selected_Year}}
+
+          {{Title}} -->
+
+       <md-input-container flex style="padding-left: 20;">
+        <label align="left" style="padding-left: 20;">Title</label>
+          <input type="text" ng-model="indicator_edit.Title" style="padding-left: 20;">
+       </md-input-container>
+
+       <br>
+
+       <md-input-container flex style="padding-left: 20;">
+          <label align="left" style="padding-left: 20;">Division</label>
+          <md-select  ng-model="indicator_edit.division" ng-change="">
+            <md-option ng-value="data.name" ng-repeat="data in Divisions">
+              {{ data.name }}
+            </md-option>
+          </md-select>
+        </md-input-container>
+
+        <br>
+
+
+       <label style="padding-left: 20;">Agency Commitment</label>
+       <form ng-init="initialize_indicator()" style="padding-left: 20;">
+          <label><input type="checkbox" ng-model="indicator_edit.DBM">a. DBM/GAA</label>
+          <label><input type="checkbox" ng-model="indicator_edit.PBB">b. PBB Requirement</label>
+          <label><input type="checkbox" ng-model="indicator_edit.DENR">c. DENR </label>
+          <label><input type="checkbox" ng-model="indicator_edit.OPCR">d. OPCR</label>
+          <label> <input type="checkbox" ng-model="indicator_edit.DPCR">e. DPCR </label>
+        </form>
+
+        <!-- SELECT * FROM `indicators` WHERE agency_commitment LIKE '%IPCR%' OR agency_commitment LIKE '%DENR%' -->
+        <!-- SELECT * FROM `indicators` WHERE agency_commitment LIKE '%IPCR%' OR agency_commitment LIKE '%DENR%' -->
+        <br>
+
+        <md-input-container flex="20" style="padding-left: 20;">
+        <label align="left" style="padding-left: 20;">Budget</label>
+          <input type="text" ng-model="indicator_edit.budget" style="padding-left: 20;">
+       </md-input-container>
+        
+
+ 
+       <md-input-container flex="20" style="padding-left: 20;">
+        <label align="left" style="padding-left: 20;">Target Weight</label>
+          <input type="number" ng-model="indicator_edit.TargetWeight" style="padding-left: 20;">
+       </md-input-container>
+
+       <md-input-container flex="20" style="padding-left: 20;">
+        <label align="left" style="padding-left: 20;">Annual Target</label>
+          <input type="text" ng-model="indicator_edit.AnnualTarget" >
+       </md-input-container>
+   <!--    Quantity:<input type="text" name="quant" Value=""><br>
+      Date Completed:<input type="date" name="dateCom" Value=""><br>
+      Remarks  :<input type="text" name="Rem" Value=""> -->
+
+        </div>
+
+        <md-divider style="padding-left: 20;margin: 3px 0;"> </md-divider>
+
+        <div>
+          <h4 style="padding-left: 20;">Monthly Target:  </h4>
+          <br>
+          <div layout="row">
+              <div layout="column" >  
+              <div layout="row" >
+                <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                <label align="left" style="padding-left: 20;">January</label>
+                  <input type="text" ng-model="Target.jan"   style="padding-left: 20;">
+
+                </md-input-container>
+
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                 <label align="left" style="padding-left: 20;">Deadline</label>
+                 <input type="text" ng-model="Target_dead.jan_dead" style="padding-left: 20;">
+
+               </md-input-container>
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                 <label align="left" style="padding-left: 20;">Budget</label>
+                 <input type="text" ng-model="Target_Budget.jan_budget" style="padding-left: 20;">
+
+               </md-input-container>
+               </div>
+
+               <div layout="row">
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                <label align="left" style="padding-left: 20;">February</label>
+                  <input type="text" ng-model="Target.feb" style="padding-left: 20;">
+               </md-input-container>
+
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                 <label align="left" style="padding-left: 20;">Deadline</label>
+                 <input type="text" ng-model="Target_dead.feb_dead" style="padding-left: 20;">
+               </md-input-container>
+
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                 <label align="left" style="padding-left: 20;">Budget</label>
+                 <input type="text" ng-model="Target_Budget.feb_budget" style="padding-left: 20;">
+
+               </md-input-container>
+
+               </div>
+
+               <div layout="row">
+
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                <label align="left" style="padding-left: 20;">March</label>
+                  <input type="text" ng-model="Target.mar" style="padding-left: 20;">
+               </md-input-container>
+
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                 <label align="left" style="padding-left: 20;">Deadline</label>
+                 <input type="text" ng-model="Target_dead.mar_dead" style="padding-left: 20;">
+               </md-input-container>
+
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                 <label align="left" style="padding-left: 20;">Budget</label>
+                 <input type="text" ng-model="Target_Budget.mar_budget" style="padding-left: 20;">
+               </md-input-container>
+
+               </div>
+
+               <div layout="row">
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                <label align="left" style="padding-left: 20;">April</label>
+                  <input type="text" ng-model="Target.apr" style="padding-left: 20;">
+               </md-input-container>
+
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                 <label align="left" style="padding-left: 20;">Deadline</label>
+                 <input type="text" ng-model="Target_dead.apr_dead" style="padding-left: 20;">
+               </md-input-container>
+
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                 <label align="left" style="padding-left: 20;">Budget</label>
+                 <input type="text" ng-model="Target_Budget.apr_budget" style="padding-left: 20;">
+               </md-input-container>
+              </div>
+
+              <div layout="row">
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                <label align="left" style="padding-left: 20;">May</label>
+                  <input type="text" ng-model="Target.may" style="padding-left: 20;">
+               </md-input-container>
+
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                 <label align="left" style="padding-left: 20;">Deadline</label>
+                 <input type="text" ng-model="Target_dead.may_dead" style="padding-left: 20;">
+               </md-input-container>
+
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                 <label align="left" style="padding-left: 20;">Budget</label>
+                 <input type="text" ng-model="Target_Budget.may_budget" style="padding-left: 20;">
+               </md-input-container>
+
+             </div>
+
+             <div layout="row">
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                <label align="left" style="padding-left: 20;">June</label>
+                  <input type="text" ng-model="Target.jun" style="padding-left: 20;">
+               </md-input-container>
+
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                 <label align="left" style="padding-left: 20;">Deadline</label>
+                 <input type="text" ng-model="Target_dead.jun_dead" style="padding-left: 20;">
+               </md-input-container>
+
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                 <label align="left" style="padding-left: 20;">Budget</label>
+                 <input type="text" ng-model="Target_Budget.jun_budget" style="padding-left: 20;">
+               </md-input-container>
+            </div>
+
+
+            <div layout="row">
+              <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                <label align="left" style="padding-left: 20;">July</label>
+                  <input type="text" ng-model="Target.jul" style="padding-left: 20;">
+               </md-input-container>
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                 <label align="left" style="padding-left: 20;">Deadline</label>
+                 <input type="text" ng-model="Target_dead.jul_dead" style="padding-left: 20;">
+               </md-input-container>
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                 <label align="left" style="padding-left: 20;">Budget</label>
+                 <input type="text" ng-model="Target_Budget.jul_budget" style="padding-left: 20;">
+               </md-input-container>
+            </div>
+
+            <div layout="row">
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                <label align="left" style="padding-left: 20;">August</label>
+                  <input type="text" ng-model="Target.aug" style="padding-left: 20;">
+               </md-input-container>
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                 <label align="left" style="padding-left: 20;">Deadline</label>
+                 <input type="text" ng-model="Target_dead.aug_dead" style="padding-left: 20;">
+               </md-input-container>
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                 <label align="left" style="padding-left: 20;">Budget</label>
+                 <input type="text" ng-model="Target_Budget.aug_budget" style="padding-left: 20;">
+               </md-input-container>
+            </div>
+
+            <div layout="row">
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                <label align="left" style="padding-left: 20;">September</label>
+                  <input type="text" ng-model="Target.sep" style="padding-left: 20;">
+               </md-input-container>
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                 <label align="left" style="padding-left: 20;">Deadline</label>
+                 <input type="text" ng-model="Target_dead.sep_dead" style="padding-left: 20;">
+               </md-input-container>
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                 <label align="left" style="padding-left: 20;">Budget</label>
+                 <input type="text" ng-model="Target_Budget.sep_budget" style="padding-left: 20;">
+               </md-input-container>
+            </div>
+            <div layout="row">
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                <label align="left" style="padding-left: 20;">October</label>
+                  <input type="text" ng-model="Target.oct" style="padding-left: 20;">
+               </md-input-container>
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                 <label align="left" style="padding-left: 20;">Deadline</label>
+                 <input type="text" ng-model="Target_dead.oct_dead" style="padding-left: 20;">
+               </md-input-container>
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                 <label align="left" style="padding-left: 20;">Budget</label>
+                 <input type="text" ng-model="Target_Budget.oct_budget" style="padding-left: 20;">
+               </md-input-container>
+              </div>
+
+              <div layout="row">
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                <label align="left" style="padding-left: 20;">November</label>
+                  <input type="text" ng-model="Target.nov" style="padding-left: 20;">
+               </md-input-container>
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                 <label align="left" style="padding-left: 20;">Deadline</label>
+                 <input type="text" ng-model="Target_dead.nov_dead" style="padding-left: 20;">
+               </md-input-container>
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                 <label align="left" style="padding-left: 20;">Budget</label>
+                 <input type="text" ng-model="Target_Budget.nov_budget" style="padding-left: 20;">
+               </md-input-container>
+              </div>
+
+              <div layout="row">
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                <label align="left" style="padding-left: 20;">December</label>
+                  <input type="text" ng-model="Target.dec_tar" style="padding-left: 20;">
+               </md-input-container>
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                 <label align="left" style="padding-left: 20;">Deadline</label>
+                 <input type="text" ng-model="Target_dead.dec_dead" style="padding-left: 20;">
+                 <!--<input type="text" ng-model="Target_dead.dec_dead" style="padding-left: 20;">-->
+               </md-input-container>
+               <md-input-container flex style="padding-left: 20;margin: 3px 0;">
+                 <label align="left" style="padding-left: 20;">Budget</label>
+                 <input type="text" ng-model="Target_Budget.dec_budget" style="padding-left: 20;" >
+               </md-input-container>
+              </div>
+              
+              
+              <!--{{Target_dead}}-->
+              
+              <!--{{Target_dead}}-->
+
+            </div>
+
+            <!-- <div layout="column">  
+
+              
+
+            </div> -->
+
+            <!-- <div layout="column">
+
+            
+
+            </div> -->
+
+
+            </div>
+
+            <!--  <div layout="column">  
+              
+
+        </div> -->
+
+        </div>
+ <!--{{Target}} -->
+ 
+ <!--{{Target_Budget}}-->
+ 
+ <!--{{Target_dead}}-->
+
+        <md-dialog-actions layout="row">
+
+      <md-button class="md-warn md-raised" ng-click="delete_indicator(indicator_edit,Selected_Year);">
+       Delete Indicator
+      </md-button>
+      
+      <md-button ng-click="hideDialog($event,'edit_indicator_dialog')">
+       Cancel
+      </md-button>
+      <md-button class="md-primary md-raised" ng-click="update_indicator(indicator_edit,Target,Target_dead, Target_Budget,Selected_Year,idSubActivities); hideDialog($event,'edit_indicator_dialog')">
+        Submit
+      </md-button>
+    </md-dialog-actions>
+      </md-dialog>
+      
+
+    </div>
+
+  </div> 
+
+</md-card>

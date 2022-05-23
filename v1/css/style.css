@@ -1,0 +1,81 @@
+@import url();
+.wrapper{
+min-height: 960px;
+}
+/*http://fonts.googleapis.com/css?family=Raleway*/
+form#empForm, form#editForm {
+padding: 0 35px 15px;
+}
+label.gender {
+padding-top: 0 !important;
+}
+table tr th{
+    background: #f8f8f8;
+}
+.search-box {
+    padding-bottom: 0;
+}
+@media screen and (max-width: 368px){
+.wrapper{
+    min-width: 340px;
+}   
+}
+.ng-contentcards {
+	background-color:#F4F4F9;
+}
+
+.ng-contentcardscontent {
+	overflow-y: auto;
+}
+
+/*For subheader in card */
+.md-subheader.md-default-theme, .md-subheader {
+	background-color: #04724D;
+}
+
+/*For savebutton in card */
+/*.md-button.md-default-theme.md-primary.md-fab, .md-button.md-primary.md-fab, .md-button.md-default-theme.md-primary.md-raised, .md-button.md-primary.md-raised {
+	
+	background-color:#368F8B;
+}*/
+
+md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolbar) {
+	background-color: #04724D;
+}
+
+.underlined {
+	text-decoration:underline;
+
+}
+
+.nobottompadding {
+	padding-bottom: 0px;
+}
+.nobottommargin {
+	margin-bottom: 0px;
+}
+
+.autooverflowy {
+	overflow-y: auto;
+}
+
+ .badge {
+  position: absolute;
+
+  size: 1px
+  padding: 5px 10px;
+  border-radius: 30%;
+  background: red;
+  color: white;
+  font-family: Roboto,Helvetica Neue,sans-serif;
+
+}
+
+.save_btn {
+  background-color: blue;
+}
+
+.cancel_btn {
+  background-color: red;
+}
+

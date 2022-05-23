@@ -1,0 +1,109 @@
+<style>
+#expense_table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 115%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+<div flex = 80 style="visibility: hidden" style="min-width: 100%; max-height: 100% ;" >
+ 
+
+    <div flex class="md-dialog-container" id="expense_sub">
+
+
+
+      <md-dialog flex style="width: 100%; height: 100% ;" layout-padding>
+        <!-- {{accomp_indic}} -->
+        <h2>Annual Expense per Sub Activity</h2>
+
+        <div layout="column" ></div> 
+
+<!-- {{new_req_from_ticket}} -->
+ 
+   <md-card layout ="row" flex="100" style="width: 100%; max-height: 85% ;">
+  <md-card-content  flex="85">
+
+    <md-input-container flex= "30" >
+          <label align="left">Division</label>
+          <md-select  ng-model="indicator.division">
+            <md-option ng-value="''" selected>
+              All
+            </md-option>
+            <md-option ng-value="data.name" ng-repeat="data in Divisions">
+              {{ data.name }}
+            </md-option>
+          </md-select>
+        </md-input-container>
+        <md-button  ng-click="exportToExcel('expense_table','MIS Annual'); " class="md-raised md-block md-primary" >
+                <md-icon ng-bind="'file_download'" ></md-icon>
+                <md-tooltip> Download</md-tooltip>
+                
+             </md-button>
+
+    <div >
+
+  <div id="Expense_Export">
+        <table id = "expense_table" >
+            <thead >
+              <tr>
+              <th >Title</th>
+              <th >Division</th>
+              <th >Expense</th>
+              <th >Annual Budget</th>
+              <th >Monthly Budget</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr flex ng-repeat="data in expenses_data|filter:search | filter:{division:indicator.division}" ng-click="">
+                <td >{{data.Title}}</td>
+                <td >{{data.division}}</td>
+                <td >{{data.Expense | number}}</td>
+                <td >{{data.budget | number}}</td>
+                <td >{{data.m_budget | number}}</td>
+              </tr>
+            </tbody>
+
+
+        </table>
+
+        </div>
+
+
+      </div>
+ 
+
+
+
+   
+
+</md-card-content>
+</md-card>
+
+  
+
+        <md-dialog-actions layout="row">
+      
+   
+      <md-button class="md-warn md-raised" ng-click="hideDialog($event,'expense_sub')">
+       Close
+      </md-button>
+     
+    </md-dialog-actions>
+      </md-dialog>
+      
+
+
+    </div>
+
+  </div> 

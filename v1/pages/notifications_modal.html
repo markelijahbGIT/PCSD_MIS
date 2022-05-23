@@ -1,0 +1,76 @@
+ <div flex = 80 style="visibility: hidden" >
+ 
+
+    <div flex class="md-dialog-container" id="notifications_dialog">
+
+
+
+      <md-dialog style="width: 40%; height: 100% ;"  layout-padding>
+        <!-- {{accomp_indic}} -->
+        <h2>Notifications</h2>
+
+        <div layout="column" ></div> 
+
+<!-- {{new_req_from_ticket}} -->
+ 
+   <md-card layout ="row" flex >
+  <md-card-content flex>
+
+    <md-input-container ng-show="mis_dashboard" flex= "20"  style="padding-bottom: 25;">
+          <label align="left">Division</label>
+          <md-select  ng-model="notification.division">
+            <md-option ng-value="''" selected>
+              All
+            </md-option>
+            <md-option ng-value="data.name" ng-repeat="data in Divisions">
+              {{ data.name }}
+            </md-option>
+          </md-select>
+        </md-input-container>
+
+    <div>
+      <md-list>
+        <md-list-item flex class="md-3-line"
+                          ng-repeat="data in Notification_List | filter :{user_division : notification.division}"
+                          ng-click="get_Accomplishment_Submissions_MIS($event,data.record_id,data.notifications_id)">
+                          <!-- ng-click="notif_seen(data.notifications_id)" -->
+
+           <!-- | filter :{user_division : notification.division} -->
+          <div flex="15"  class="md-list-item-text" layout="column" ng-click = "">
+           
+              <md-icon ng-bind="'check_circle_outline'"  ></md-icon>
+            
+          </div>
+          <div flex="85" style="line-height:15px"  layout="column">
+            <text><b>{{data.Name}}</b> {{data.notif_text}}</text>
+            <text>{{data.Title}}</text>
+            <b>{{data.date_created | date}} </b>
+            <md-divider> </md-divider>
+          </div>
+
+
+        </md-list-item>
+      </md-list>
+
+      </div>
+ 
+</md-card-content>
+</md-card>
+
+  
+
+        <md-dialog-actions layout="row">
+      
+   
+      <md-button class="md-warn md-raised" ng-click="hideDialog($event,'expense_sub')">
+       Close
+      </md-button>
+     
+    </md-dialog-actions>
+      </md-dialog>
+      
+
+
+    </div>
+
+  </div> 

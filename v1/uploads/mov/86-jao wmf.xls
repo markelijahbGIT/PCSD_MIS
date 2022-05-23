@@ -1,0 +1,207 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>JAO</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--><style type="text/css"> .print-hide{display: none;} </style></head><body><table>
+        <label><h4>JOURNAL ANALYSIS OF OBLIGATION </h4></label> <br>
+        <label><b>FOR  THE MONTH OF </b> </label>  
+
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+    
+        <table class="table">
+                <tbody><tr>    
+                        <th></th> 
+                        <th></th> 
+                        <th></th> 
+                        <th></th>
+                        <th></th> 
+                        <th></th> 
+                        <th colspan="11" align="left" bgcolor="#71F279">MOOE </th> 
+                        <th></th>
+                        <th></th>
+                        <th colspan="11" align="left" bgcolor="##F5B7B1">Advocacy, Communication and Education </th> 
+                        <th colspan="11" align="left" bgcolor="#A569BD">ECAN Zoning </th> 
+                        <th colspan="11" align="left" bgcolor="#27AE60">Knowledge and Research Management </th> 
+                        <th colspan="11" align="left" bgcolor="#CD6155">Wildlife and Cave Management</th> 
+                
+                </tr>
+                <tr>    
+                    
+                        <th></th> 
+                        <th></th> 
+                        <th></th> 
+                        <th>Check/ADA Number</th> 
+                        <th></th> 
+                        <th></th> 
+                        
+                        <th bgcolor="#71F279">Total MOOE </th> 
+                        <th bgcolor="#71F279">Travelling Expenses - Local</th>
+                        <th bgcolor="#71F279">Training Expenses</th>
+                        <th bgcolor="#71F279">Office Supplies Expenses</th>
+                        <th bgcolor="#71F279">Fuel Oil and Lubricants Expenses</th>
+                        <th bgcolor="#71F279">Mobile</th>
+                        <th bgcolor="#71F279">Other Professional Services</th>
+                        <th bgcolor="#71F279">Insurance Expense</th>
+                        <th bgcolor="#71F279">Representation Expenses</th>
+                        <th bgcolor="#71F279">Rents - Building and Structures</th>
+                        <th bgcolor="#71F279">Other Maintenance and Other Operating Expeses</th>
+                        <th></th>
+
+                        <th>MOOE</th>
+
+                        <th bgcolor="#FFFFFF">Total ACE </th> 
+                        <th bgcolor="#71F279">Travelling Expenses - Local</th>
+                        <th bgcolor="#71F279">Training Expenses</th>
+                        <th bgcolor="#71F279">Office Supplies Expenses</th>
+                        <th bgcolor="#71F279">Fuel Oil and Lubricants Expenses</th>
+                        <th bgcolor="#71F279">Mobile</th>
+                        <th bgcolor="#71F279">Other Professional Services</th>
+                        <th bgcolor="#71F279">Insurance Expense</th>
+                        <th bgcolor="#71F279">Representation Expenses</th>
+                        <th bgcolor="#71F279">Rents - Building and Structures</th>
+                        <th bgcolor="#71F279">Other Maintenance and Other Operating Expeses</th>
+
+                        <th bgcolor="#FFFFFF">Total ECAN Zoning </th> 
+                        <th bgcolor="#71F279">Travelling Expenses - Local</th>
+                        <th bgcolor="#71F279">Training Expenses</th>
+                        <th bgcolor="#71F279">Office Supplies Expenses</th>
+                        <th bgcolor="#71F279">Fuel Oil and Lubricants Expenses</th>
+                        <th bgcolor="#71F279">Mobile</th>
+                        <th bgcolor="#71F279">Other Professional Services</th>
+                        <th bgcolor="#71F279">Insurance Expense</th>
+                        <th bgcolor="#71F279">Representation Expenses</th>
+                        <th bgcolor="#71F279">Rents - Building and Structures</th>
+                        <th bgcolor="#71F279">Other Maintenance and Other Operating Expeses</th>
+
+                        <th bgcolor="#FFFFFF">Total KRM </th> 
+                        <th bgcolor="#71F279">Travelling Expenses - Local</th>
+                        <th bgcolor="#71F279">Training Expenses</th>
+                        <th bgcolor="#71F279">Office Supplies Expenses</th>
+                        <th bgcolor="#71F279">Fuel Oil and Lubricants Expenses</th>
+                        <th bgcolor="#71F279">Mobile</th>
+                        <th bgcolor="#71F279">Other Professional Services</th>
+                        <th bgcolor="#71F279">Insurance Expense</th>
+                        <th bgcolor="#71F279">Representation Expenses</th>
+                        <th bgcolor="#71F279">Rents - Building and Structures</th>
+                        <th bgcolor="#71F279">Other Maintenance and Other Operating Expeses</th>
+
+                        <th bgcolor="#FFFFFF">Total WCM </th> 
+                        <th bgcolor="#71F279">Travelling Expenses - Local</th>
+                        <th bgcolor="#71F279">Training Expenses</th>
+                        <th bgcolor="#71F279">Office Supplies Expenses</th>
+                        <th bgcolor="#71F279">Fuel Oil and Lubricants Expenses</th>
+                        <th bgcolor="#71F279">Mobile</th>
+                        <th bgcolor="#71F279">Other Professional Services</th>
+                        <th bgcolor="#71F279">Insurance Expense</th>
+                        <th bgcolor="#71F279">Representation Expenses</th>
+                        <th bgcolor="#71F279">Rents - Building and Structures</th>
+                        <th bgcolor="#71F279">Other Maintenance and Other Operating Expeses</th>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Budget for the year</td> 
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td></td>
+                    
+                    <td class="ng-binding"></td>
+                    
+                    <td class="ng-binding"></td> <!------- Advocacy TOTAL-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+                    
+                    <td class="ng-binding"></td> <!------- Advocacy TOTAL-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+                    <td class="ng-binding"></td> <!------- Advocacy TOTAL-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+                    <td class="ng-binding"></td> <!------- Advocacy TOTAL-->
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+                    <td class="ng-binding"></td>
+
+
+
+
+
+                </tr>
+                <tr></tr>
+                
+                
+        </tbody></table>
+
+        <table class="table">
+            <tbody><tr>
+            <th>Date</th>
+            <th>OBR No.</th>
+            <th>NAME OF CREDITORS</th>
+            <th>LDDAP-ADA NO 101101</th>
+            <th>Oblig. Center</th>
+            </tr>
+            <tr>
+                    <td colspan="2"></td>
+                    <td align="center"> <strong>ADA</strong></td>
+                    <td colspan="60"></td>
+            </tr>
+            <!-- ngRepeat: x in ExpensesExport -->
+
+            <tr>
+                <td colspan="2"></td>
+                <td align="center"> <strong>CHECK</strong></td>
+                <td colspan="60"></td>
+            </tr>
+
+            <!-- ngRepeat: x in ExpensesExportC -->
+        </tbody></table>
+    </table></body></html>

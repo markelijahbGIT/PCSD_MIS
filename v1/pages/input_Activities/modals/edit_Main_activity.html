@@ -1,0 +1,83 @@
+<md-card class="autooverflowy">
+<div style="visibility: hidden" >
+ 
+
+    <div  class="md-dialog-container" id="edit_Main_activity">
+
+
+
+      <md-dialog  style="min-width: 30%" layout-padding >
+         <!-- {{Main_Activity_edit}} -->
+        <h2>Edit Main Activity {{Main_Activity_edit.idMainActivities}}</h2>
+        
+<div layout="column" flex="100">
+      <md-input-container flex = "100" style="padding-bottom: 25;">
+          <label>Year</label>
+          <md-select   ng-model="Main_Activity_edit.yr" ng-change="">
+
+            <!-- <md-option ng-value="MainAct_id.yr" >
+              {{ MainAct_id.yr }}
+            </md-option> -->
+
+            <md-option ng-value="data.value" ng-repeat="data in AllYears">
+              {{ data.name }}
+            </md-option>
+          </md-select>
+        </md-input-container >
+
+        <md-input-container flex = "50" style="padding-bottom: 25;">
+          <label>P/A/P:</label>
+          <md-select  ng-model="Main_Activity_edit.MFONo">
+
+
+            <md-option ng-value="data.value" ng-repeat="data in MFO">
+              {{ data.name }}
+            </md-option>
+          </md-select>
+        </md-input-container >
+
+        <md-input-container flex = "50">
+          <label>Title:</label>
+          <input type="text" ng-model="Main_Activity_edit.Title">
+        </md-input-container >
+        
+        <md-input-container flex = "50">
+          <label>Code:</label>
+          <input type="text" ng-model="Main_Activity_edit.Coding">
+        </md-input-container >
+       
+
+         <br>
+
+
+         
+    </div>
+        <br>
+
+        <md-dialog-actions layout="column" align ="right">
+          
+      
+      <div align= "right">
+        <md-button class = "md-raised"  ng-click="Delete_main_act($event,Main_Activity_edit.idMainActivities)">
+       Delete
+      </md-button>
+      <md-button class = "md-warn md-raised" ng-click="hideDialog($event,'input_accomplishment_dialog')">
+       Cancel
+      </md-button>
+      <md-button class="md-primary md-raised" ng-click="save_Main_Act_edit(Main_Activity_edit);hideDialog($event,'edit_Main_activity');">
+        Save
+      </md-button>
+
+      </div>
+    </md-dialog-actions>
+      </md-dialog>
+      
+
+
+    </div>
+
+  </div> 
+
+ 
+
+</md-card>

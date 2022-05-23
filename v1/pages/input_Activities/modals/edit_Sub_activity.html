@@ -1,0 +1,55 @@
+<md-card class="autooverflowy">
+<div style="visibility: hidden" >
+ 
+
+    <div  class="md-dialog-container" id="edit_Sub_activity">
+
+
+
+      <md-dialog  style="min-width: 30%" layout-padding >
+         <!-- {{Sub_Activity_edit}} -->
+        <h2>Edit Sub Activity</h2>
+        
+<div layout="column" flex="100">
+     
+        <md-input-container flex = "50">
+          <label>Title:</label>
+          <input type="text" ng-model="Sub_Activity_edit.Title">
+        </md-input-container >
+        
+        <md-input-container flex = "50">
+          <label>Code:</label>
+          <input type="text" ng-model="Sub_Activity_edit.Coding">
+        </md-input-container >
+           
+    </div>
+        <br>
+
+        <md-dialog-actions layout="row">
+          <div flex= "50">
+          <md-button  ng-click="Delete_sub_act($event,Sub_Activity_edit.idsubactivities);hideDialog($event,'edit_Sub_activity');hideDialog($event,'Sub_Activity_List_edit')">
+       Delete
+      </md-button>
+      </div>
+      
+      <div align= "right">
+      <md-button class = "md-warn md-raised" ng-click="hideDialog($event,'edit_Sub_activity')">
+       Cancel
+      </md-button>
+      <md-button class="md-primary md-raised" ng-click="save_Sub_Act_edit(Sub_Activity_edit);hideDialog($event,'edit_Sub_activity');">
+        Submit
+      </md-button>
+
+      </div>
+    </md-dialog-actions>
+      </md-dialog>
+      
+
+
+    </div>
+
+  </div> 
+
+ 
+
+</md-card>
