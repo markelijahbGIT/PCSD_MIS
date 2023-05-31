@@ -15,6 +15,7 @@ function audit_trail($userID,$record_id ,$trans_type , $encodeDate, $audit_query
 		('$userID','$record_id','$trans_type','$encodeDate','$audit_query')"; 
 
 		mysqli_query($con, $trail_query);
+		//testing
 // }
 
 }
